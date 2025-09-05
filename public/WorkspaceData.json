@@ -1,0 +1,52 @@
+{
+    "content": [
+        {
+            "title": "Workspaces, Projects, and Models",
+            "subtitle": "Learn how Workspaces, Projects, Versions, and Models structure your computer vision work in Roboflow.",
+            "description": [
+                "In Roboflow, your work is organized into Projects, which are always contained within Workspaces."
+            ],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "What is a Workspace?",
+                    "description": [
+                        "Workspaces are collaborative environments designed for you and your team members. They serve as the central hub for organizing all your Projects.",
+                        "Your Roboflow plan and billing are managed at the Workspace level.",
+                        "Learn how to create a Workspace"
+                    ],
+                    "media": {
+                        "image": "https://example.com/images/workspace.png",
+                        "video": "https://example.com/videos/workspace.mp4"
+                    }
+                },
+                {
+                    "descriptionTitle": "What is a Project?",
+                    "description": [
+                        "Projects let you organize your computer vision work around a single computer vision dataset.",
+                        "This is where you'll manage your images, annotations, and the evolution of that dataset through its dataset versions.",
+                        "Projects can have one or more versions.",
+                        "Learn how to create a Project"
+                    ]
+                },
+                {
+                    "descriptionTitle": "Dataset Versions",
+                    "description": [
+                        "Versions are point-in-time snapshots of your project's dataset.",
+                        "You can create a version from the current state of your dataset at any time.",
+                        "Once created, a version remains constant. Any subsequent changes you make to your dataset will not affect it.",
+                        "This is key for model reproducibility and comparison.",
+                        "Learn how to create a Dataset Version"
+                    ]
+                },
+                {
+                    "descriptionTitle": "Models",
+                    "description": [
+                        "You can train a model using any Dataset Version.",
+                        "Roboflow supports many state-of-the-art model architectures.",
+                        "The architectures available will depend on your project type — object detection, segmentation, keypoint, classification, or multimodal."
+                    ]
+                }
+            ]
+        }
+    ]
+}
