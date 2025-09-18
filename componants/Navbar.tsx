@@ -51,7 +51,7 @@ export default function Navbar() {
             </NavigationMenuItem>
 
             {/* Developer Reference */}
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuTrigger>Developer</NavigationMenuTrigger>
               <NavigationMenuContent className="mt-2">
                 <ul className="grid w-[300px] gap-2 p-4">
@@ -66,10 +66,10 @@ export default function Navbar() {
                   </ListItem>
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
             {/* Status with Icons */}
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuTrigger>Status</NavigationMenuTrigger>
               <NavigationMenuContent className="mt-2">
                 <ul className="grid w-[200px] gap-4 p-4">
@@ -96,17 +96,17 @@ export default function Navbar() {
                   </li>
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
 
             {/* Docs Link */}
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuLink
                 asChild
                 className={navigationMenuTriggerStyle()}
               >
                 <Link href="/docs">Docs</Link>
               </NavigationMenuLink>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
           </NavigationMenuList>
         </div>
 

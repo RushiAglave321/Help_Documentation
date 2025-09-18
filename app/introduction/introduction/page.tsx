@@ -37,7 +37,7 @@ const page = () => {
   const [contentData, setContentData] = useState<ContentData | null>(null);
 
   useEffect(() => {
-    fetch("/New_Data.json")
+    fetch("/Intro_sections.json")
       .then((res) => res.json())
       .then((data: ContentData) => setContentData(data));
   }, []);

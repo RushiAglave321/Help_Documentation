@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "title": "Getting Started with SEAk",
+      "subtitle": "Learn how to log in, create projects, and organize your analyses in SEAk.",
+      "description": [
+        "The first step in using SEAk is logging in and navigating to the Project Section, which serves as the container for your analyses, datasets, and workspaces."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Login and Project Section",
+          "description": [
+            "A Project is a container for your analyses, datasets, and workspaces. Projects allow you to organize work based on geography, disaster event, or theme.",
+            "After logging in, you arrive at the Project Section where you can select an existing project or create a new one."
+          ],
+          "media": {
+            "image": "demo-login-project.png"
+          }
+        },
+        {
+          "descriptionTitle": "Creating a New Project",
+          "descriptionType": "list",
+          "description": [
+            "Navigate to the Projects section and click the 'Add New Project' button.",
+            "In the form, enter the Project Name and Description.",
+            "Add relevant Tags by typing and pressing Enter after each tag.",
+            "Click 'New Project' to save, or 'Cancel' to discard.",
+            "Once created, click on the project card to access or manage its associated workspaces."
+          ],
+          "media": {
+            "image": "demo-create-project.png"
+          }
+        }
+      ]
+    }
+  ]
+}

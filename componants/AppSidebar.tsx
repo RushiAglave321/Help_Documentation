@@ -37,6 +37,22 @@ export default function AppSidebar() {
       <SidebarHeader />
 
       <SidebarContent>
+        {/* Introduction */}
+        <SidebarGroup>
+          <SidebarGroupLabel>Introduction</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href="/introduction/introduction" className={linkClasses("/introduction/introduction")}>
+                    Introduction
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
         {/* Drafts */}
         <SidebarGroup>
           <SidebarGroupLabel>Drafts</SidebarGroupLabel>

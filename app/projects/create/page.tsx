@@ -3,7 +3,6 @@ import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
 import MediaViewer from "@/componants/MediaViewer";
 import Note from "@/componants/Note";
-import WorkSpaceDescription from "@/componants/WorkspacDescription";
 import contentData from "@/public/WorkspaceData.json";
 import { useEffect, useState } from "react";
 
@@ -38,7 +37,7 @@ const page = () => {
   const [contentData, setContentData] = useState<ContentData | null>(null);
 
   useEffect(() => {
-    fetch("/WorkspaceData.json")
+    fetch("/projectCreate.json")
       .then((res) => res.json())
       .then((data: ContentData) => setContentData(data));
   }, []);

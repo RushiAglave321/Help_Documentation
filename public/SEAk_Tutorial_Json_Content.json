@@ -1,0 +1,218 @@
+{
+    "content": [
+	{
+  "title": "SEAk Platform Tutorial",
+  "description": "A no-code GeoAI-powered platform to streamline marine debris damage assessment post-disaster.",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "content": "SEAk enables rapid AI-based analysis of aerial imagery, grid-based insights, cost estimation, and interactive visualization tools for informed decision-making.",
+      "image": "demo-introduction.png"
+    },
+    {
+      "id": "platform-overview",
+      "title": "Platform Overview – Section Guide",
+      "content": "Quick guide to SEAk sections and their purpose.",
+      "features": [
+        { "name": "Login / Sign Up", "description": "Access your account using email and OTP. New users can register with their email ID." },
+        { "name": "Projects", "description": "View all created projects. Each project can have multiple workspaces." },
+        { "name": "Workspaces", "description": "Displays all workspaces within a project. Includes AOIs, datasets, models, and tools." },
+        { "name": "Recent", "description": "Lists recently accessed workspaces for quick reopening." },
+        { "name": "Drafts", "description": "Shows incomplete workspaces, which can be resumed later." },
+        { "name": "AOIs (Areas of Interest)", "description": "View and manage saved AOIs. Edit or reuse them across workspaces." },
+        { "name": "Datasets", "description": "Lists all uploaded raster and vector datasets. Add new datasets for analysis." },
+        { "name": "Create Workspace", "description": "Guided setup for creating a workspace by selecting project, AOI, datasets, and tools." },
+        { "name": "Map Dashboard", "description": "Main interface for running analytics, applying AI models, and visualizing results." },
+        { "name": "SEAk Analysis Dashboard", "description": "Charts, graphs, and attribute tables for deeper analysis and insights." }
+      ],
+      "image": "demo-platform-overview.png"
+    },
+    {
+      "id": "getting-started",
+      "title": "Getting Started with SEAk",
+      "subsections": [
+        {
+          "title": "Login and Project Section",
+          "content": "Projects act as containers for analyses, datasets, and workspaces. After logging in, you arrive at the Project Section where you can select an existing project or create a new one.",
+          "steps": [
+            "Navigate to the Projects section and click 'Add New Project'.",
+            "Enter Project Name and Description.",
+            "Add Tags by typing and pressing Enter.",
+            "Click 'New Project' to save or 'Cancel' to discard.",
+            "Click on the project card to access or manage its workspaces."
+          ],
+          "image": "demo-project.png"
+        },
+        {
+          "title": "Workspaces",
+          "content": "Workspaces are subdivisions within a project, each focused on a specific Area of Interest (AOI) or type of analysis.",
+          "steps": [
+            "Click 'Create Workspace' within the project.",
+            "Step 1: Enter Workspace Name, Description, and Domain.",
+            "Step 2: Define AOI by selecting an existing AOI, uploading a KML/SHP/GeoJSON, or manually drawing.",
+            "Step 3: Select Assessments applicable to your project.",
+            "Step 4: Choose pre-trained models and save the workspace."
+          ],
+          "image": "demo-workspace.png"
+        }
+      ]
+    },
+    {
+      "id": "map-dashboard",
+      "title": "Map Dashboard",
+      "content": "The interactive interface zoomed to the AOI, where analytics are run and visualizations displayed.",
+      "components": [
+        "Run AI Model – Apply AI models on datasets for predictive vector layers.",
+        "Assessments – Generate indices using raster datasets.",
+        "Compare Map – Compare two layers side-by-side with basemap options.",
+        "Annotate – Create labeled layers with AI-assisted editing.",
+        "Proximity Analysis – Measure distances, run spatial queries, and calculate statistics.",
+        "Change Detection – Compare pre- and post-disaster images.",
+        "SEAk Aware Analysis – Plan clean-up activities based on configurations.",
+        "Pull Vector – Add additional vector data.",
+        "Comments – Add or reply to geotagged comments.",
+        "Download Report – Export dashboard as PDF.",
+        "SEAk Aware Configuration – Configure layers and settings for SEAk Aware analysis.",
+        "Notification – Displays process updates.",
+        "Profile Icon – Manage profile and dashboard theme.",
+        "Base map – Switch basemap styles.",
+        "Layer View – Manage and view available layers.",
+        "Full screen – Expand dashboard view.",
+        "Measurement – Calculate distance or area.",
+        "Zoom – Zoom in/out controls."
+      ],
+      "image": "demo-dashboard.png"
+    },
+    {
+      "id": "running-analytics",
+      "title": "Running Analytics",
+      "content": "Use the Analytics Tool to apply AI models or specialized analyses on datasets.",
+      "steps": [
+        "Select dataset (Pre-event or Post-event).",
+        "Choose model.",
+        "Click 'Run'."
+      ],
+      "image": "demo-analytics.png"
+    },
+    {
+      "id": "visualizing-results",
+      "title": "Visualizing Results",
+      "content": "Outputs appear as layers. Use Layer View under Models to activate them.",
+      "tools": [
+        "Zoom in/out with mouse wheel.",
+        "Box Zoom using Shift + drag."
+      ],
+      "image": "demo-visualize.png"
+    },
+    {
+      "id": "customizing-layers",
+      "title": "Customizing Layers",
+      "subsections": [
+        {
+          "title": "Styling Layers",
+          "content": "Adjust Stroke (boundary) and Fill (polygon interior) using the color picker and opacity slider. Submit to apply changes.",
+          "image": "demo-style.png"
+        },
+        {
+          "title": "Grid View",
+          "content": "Divide the AOI into grids for granular insights. Adjust grid size with +/- buttons and click cells to view analytics.",
+          "image": "demo-grid.png"
+        }
+      ]
+    },
+    {
+      "id": "cost-analysis",
+      "title": "Cost Analysis",
+      "content": "Estimate costs based on zoning and measurements.",
+      "steps": [
+        "Open layer menu and select 'Cost'.",
+        "Select cost configuration and currency.",
+        "Assign zoning layers (commercial/residential).",
+        "Choose measurement units (sq ft, linear ft, cubic ft).",
+        "Enter cost values.",
+        "Save and run model. Results appear in infographics."
+      ],
+      "image": "demo-cost.png"
+    },
+    {
+      "id": "hotspot-analysis",
+      "title": "Hotspot Analysis",
+      "content": "Identify high-concentration debris or changes with adjustable blur limit and radius.",
+      "image": "demo-hotspot.png"
+    },
+    {
+      "id": "change-detection",
+      "title": "Change Detection Analysis",
+      "content": "Compare pre- and post-disaster imagery to detect changes.",
+      "steps": [
+        "Go to Analytics Panel → Change Detection.",
+        "Select pre- and post-disaster layers.",
+        "Name the result and run analysis."
+      ],
+      "outputs": [
+        "Modified Areas",
+        "New Additions",
+        "Missing Areas"
+      ],
+      "tools": [
+        "Time Series Timeline",
+        "Slider Tool",
+        "Table View",
+        "Hotspot Tool"
+      ],
+      "image": "demo-change.png"
+    },
+    {
+      "id": "seak-aware-analysis",
+      "title": "SEAk Aware Analysis Workflow",
+      "subsections": [
+        {
+          "title": "Configuration",
+          "content": "Set filters, toggle visibility, add notes, define habitats, and upload data.",
+          "image": "demo-aware-config.png"
+        },
+        {
+          "title": "Running Analysis",
+          "content": "Select prediction layer, name the result, and run the analysis.",
+          "outputs": [
+            "Graphical Summaries (warnings, zones)",
+            "Map Hotspots",
+            "Inspect Tool (metadata on debris)",
+            "Line Graph & Attribute Table",
+            "Proximity Analysis – debris near infrastructure or habitats",
+            "Cost-based charts"
+          ],
+          "image": "demo-aware-results.png"
+        }
+      ]
+    },
+    {
+      "id": "collaboration",
+      "title": "Collaboration Tools",
+      "content": "Right-click the map to add comments. Access all via More Options → Comments. Reply to geolocated comments for team collaboration.",
+      "image": "demo-collab.png"
+    },
+    {
+      "id": "exporting-results",
+      "title": "Exporting Results",
+      "content": "Go to More Options → Download Report to export the dashboard as a PDF file.",
+      "image": "demo-export.png"
+    }
+  ],
+  "navigationFlow": [
+    "Login / Sign Up",
+    "Project Creation",
+    "Workspace Setup",
+    "Map Dashboard",
+    "Running Analytics",
+    "Visualizing Results",
+    "Customizing Layers",
+    "Cost Analysis",
+    "Hotspot Analysis",
+    "Change Detection",
+    "SEAk Aware Analysis",
+    "Collaboration Tools",
+    "Exporting Results"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "content": [
+    {
+      "title": "Training Manual – SEAk Platform",
+      "subtitle": "A no-code, GeoAI-powered platform for streamlined marine debris damage assessment post-disaster.",
+      "description": [
+        "SEAk allows rapid AI-based analysis of aerial imagery, grid-based insights, cost estimation, and interactive visualization tools for informed decision-making."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Introduction",
+          "description": [
+            "SEAk is designed to simplify and accelerate post-disaster damage assessment.",
+            "The platform leverages GeoAI to process aerial imagery and generate actionable insights without requiring coding expertise."
+          ]
+        },
+        {
+          "descriptionTitle": "Platform Overview – Section Guide",
+          "description": [
+            "The SEAk platform is structured into various sections, each serving a unique role in the workflow."
+          ],
+          "table": {
+            "columns": [
+              "Section",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Login / Sign Up",
+                "Access your account using email and OTP. New users can register with their email ID."
+              ],
+              [
+                "Projects",
+                "View all created projects. Each project can contain multiple workspaces. Click to explore related workspaces."
+              ],
+              [
+                "Workspaces",
+                "Displays all workspaces within a project, including selected AOIs, datasets, models, and tools. Clicking opens the Map Dashboard."
+              ],
+              [
+                "Recent",
+                "Lists recently accessed workspaces. Click to reopen the respective Map Dashboard quickly."
+              ],
+              [
+                "Drafts",
+                "Shows incomplete workspaces that can be resumed from the last saved step."
+              ],
+              [
+                "AOIs (Areas of Interest)",
+                "View and manage saved AOIs. Edit or reuse them across different workspaces."
+              ],
+              [
+                "Datasets",
+                "Lists all uploaded raster and vector datasets. Add new datasets for use in workspaces or models."
+              ],
+              [
+                "Create Workspace",
+                "A guided setup for creating workspaces by selecting a project, AOI, datasets, models, and analysis tools."
+              ],
+              [
+                "Map Dashboard",
+                "The main interface for running analytics, applying AI models, visualizing results, and collaborating."
+              ],
+              [
+                "SEAk Analysis Dashboard",
+                "Provides charts, graphs, and attribute tables for deeper spatial analysis and data insights."
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+

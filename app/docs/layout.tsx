@@ -3,7 +3,6 @@
 // import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import MediaViewer from "@/componants/MediaViewer";
 import Note from "@/componants/Note";
-import WorkSpaceDescription from "@/componants/WorkspacDescription";
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,7 +15,6 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
       {/* Center content - scrollable */}
       {/* <main className="flex-1 overflow-y-auto p-6"> */}
         {/* <DescriptiveeContent /> */}
-        <WorkSpaceDescription />
         <br />
         <Note>This is a globe image serving as svg.</Note>
         <MediaViewer src="/globe.svg" />

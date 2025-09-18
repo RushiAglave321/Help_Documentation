@@ -1,14 +1,23 @@
 "use client";
+import Note from "./Note";
 
 interface MediaProps {
   image?: string;
   video?: string;
 }
 
+interface TableProps {
+  columns: string[];
+  rows: string[][];
+}
+
 interface DescriptionSection {
   descriptionTitle: string;
   description: string[];
+  descriptionType?: "paragraph" | "list";
   media?: MediaProps;
+  table?: TableProps;
+  Note?: string
 }
 
 interface ContentProps {
@@ -58,14 +67,23 @@ export default function DescriptiveeContent({ data }: DescriptiveeContentProps) 
             {section?.descriptionTitle}
           </h4>
           <div className="space-y-2">
-            {section?.description.map((desc, j) => (
+            {/* {section?.description.map((desc, j) => (
               <p
                 key={j}
                 className="leading-relaxed text-muted-foreground text-justify"
               >
                 {desc}
               </p>
-            ))}
+            ))} */}
+            {section.descriptionType === "list" ? (
+              <ul className="list-disc list-inside space-y-1">
+                {section.description.map((point, idx) => (
+                  <li key={idx}>{point}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>{section.description.join(" ")}</p>
+            )}
           </div>
 
           {/* Media (optional) */}
@@ -85,6 +103,49 @@ export default function DescriptiveeContent({ data }: DescriptiveeContentProps) 
               Your browser does not support the video tag.
             </video>
           )}
+
+          {/* Table (optional) */}
+          {section?.table && (
+            <div className="overflow-x-auto mt-4">
+              <table className="min-w-full border border-border rounded-lg overflow-hidden">
+                <thead className="bg-muted text-muted-foreground">
+                  <tr>
+                    {section.table.columns.map((col, cIdx) => (
+                      <th
+                        key={cIdx}
+                        className="px-4 py-2 border-b border-border text-left font-semibold"
+                      >
+                        {col}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {section.table.rows.map((row, rIdx) => (
+                    <tr key={rIdx} className="even:bg-muted/50">
+                      {row.map((cell, cellIdx) => (
+                        <td
+                          key={cellIdx}
+                          className="px-4 py-2 border-b border-border text-muted-foreground"
+                        >
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+
+
+          {/* Note (optional) */}
+          {section?.Note && (
+            <Note>
+              {section.Note}
+            </Note>
+          )}
+
         </section>
       ))}
     </article>
