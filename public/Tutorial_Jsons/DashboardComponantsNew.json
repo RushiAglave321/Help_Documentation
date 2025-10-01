@@ -1,0 +1,115 @@
+{
+  "content": [
+    {
+      "title": "Map Dashboard",
+      "subtitle": "The interactive interface for running analytics, applying AI models, and visualizing results within your AOI.",
+      "description": [
+        "The Map Dashboard is the central workspace in SEAk where you interact with your data, run analyses, and generate insights."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Entering the Map Dashboard",
+          "description": [
+            "In the Projects section, navigate to the desired Project.",
+            "Click on the relevant Workspace.",
+            "You will now see the interactive Map Dashboard zoomed into the set AOI."
+          ]
+        },
+        {
+          "descriptionTitle": "Components of the Map Dashboard",
+          "table": {
+            "columns": [
+              "Components",
+              "Description"
+            ],
+            "rows": [
+              [
+                "Run AI Model",
+                "Run AI models on selected datasets for predictive analysis, generating vector layer outputs."
+              ],
+              [
+                "Assessments",
+                "Run indices using raster dataset bands within the AOI to create classified raster layers."
+              ],
+              [
+                "Compare Map",
+                "Compare two layers visually, switch base maps, and check differences."
+              ],
+              [
+                "Annotate",
+                "Create annotation layers, set classes, and draw them on the map. Includes AI-assisted labeling and editing tools for QC."
+              ],
+              [
+                "Proximity Analysis",
+                "Assess proximity of objects to points/lines/polygons, run spatial/attribute queries, and generate statistics."
+              ],
+              [
+                "Change Detection",
+                "Compare pre- and post-disaster imagery and view results with infographics."
+              ],
+              [
+                "SEAk Aware Analysis",
+                "Run environmental integrated cleanup planning based on user-defined configurations and model predictions."
+              ],
+              [
+                "Map View",
+                "Displays the AOI from the workspace."
+              ],
+              [
+                "Pull Vector",
+                "Add vector data directly from the database."
+              ],
+              [
+                "Comments",
+                "View and reply to all geotagged comments on the map."
+              ],
+              [
+                "SEAk Aware Configuration",
+                "Configure layers, add details, and define Do’s/Don’ts for SEAk Aware Analysis."
+              ],
+              [
+                "Download Report",
+                "Download a snapshot of the dashboard as a PDF."
+              ],
+              [
+                "More Options",
+                "Contains tools such as Comments, SEAk Aware Configuration, and Report Download."
+              ],
+              [
+                "Notification",
+                "Displays updates on predictions or data processing completion."
+              ],
+              [
+                "Profile Icon",
+                "View user profile and change dashboard color mode."
+              ],
+              [
+                "Base Map",
+                "Switch base map types from available options."
+              ],
+              [
+                "Layer View",
+                "Manage available and processed layers with display options."
+              ],
+              [
+                "Full Screen",
+                "Expand the Map Dashboard to full screen view."
+              ],
+              [
+                "Measurement",
+                "Measure distances or areas between features."
+              ],
+              [
+                "Zoom In/Out",
+                "Zoom controls for navigating the map."
+              ]
+            ]
+          },
+          "media": {
+            "image": "https://giskernel-my.sharepoint.com/:i:/p/rushikesh/EUtZJgugTVNDvzSc1PEgb4sBaRAJNvtY73DTdqqCqRVqkA?e=VftRV7&download=1"
+          }
+        }
+      ]
+    }
+  ]
+}

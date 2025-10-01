@@ -14,7 +14,7 @@
             "After logging in, you arrive at the Project Section where you can select an existing project or create a new one."
           ],
           "media": {
-            "image": "demo-login-project.png"
+            "image": "demo-login-project.png" 
           }
         },
         {

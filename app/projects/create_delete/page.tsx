@@ -3,7 +3,6 @@ import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
 import { useEffect, useState } from "react";
 
-
 // Types
 interface DescriptionSection {
   descriptionTitle: string;
@@ -26,7 +25,7 @@ const Page = () => {
   const [contentData, setContentData] = useState<ContentData | null>(null);
 
   useEffect(() => {
-    fetch("/Tutorial_Jsons/New_Data.json")
+    fetch("/Tutorial_Jsons/DashboardComponents.json")
       .then((res) => res.json())
       .then((data: ContentData) => setContentData(data));
   }, []);

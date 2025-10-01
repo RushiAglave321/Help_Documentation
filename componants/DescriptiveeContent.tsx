@@ -76,7 +76,7 @@ export default function DescriptiveeContent({ data }: DescriptiveeContentProps) 
                 ))}
               </ul>
             ) : (
-              <p>{section.description.join(" ")}</p>
+              <p>{section.description?.join(" ")}</p>
             )}
           </div>
 

@@ -8,32 +8,26 @@ const cards = [
     icon: <CodeIcon className="w-8 h-8 text-purple-600" />,
     title: "Projects",
     description: "Learn about the Project Creation and usage.",
-    href: "/projects/create", // Add the path you want to navigate to
+    href: "/projects/create_delete", 
   },
   {
     icon: <UsersIcon className="w-8 h-8 text-purple-600" />,
     title: "Workspaces",
     description: "Create, Remove, and Manage workspaces.",
-    href: "/workspaces",
+    href: "/workspace/create_delete",
   },
   {
     icon: <RocketIcon className="w-8 h-8 text-purple-600" />,
     title: "Models",
     description: "Train state of the art models with a few clicks.",
-    href: "/models",
+    href: "/models/create_delete",
   },
   {
     icon: <ImageIcon className="w-8 h-8 text-purple-600" />,
-    title: "Datasets",
+    title: "Map Dashboard",
     description: "Upload, manage, annotate, and analyze images.",
-    href: "/datasets",
-  },
-  {
-    icon: <GridIcon  className="w-8 h-8 text-purple-600" />,
-    title: "AOI",
-    description: "Upload, manage, annotate, and analyze AOI's.",
-    href: "/datasets",
-  },
+    href: "/map_dashboard/componants",
+  }
 ];
 
 export default function FeatureCards() {

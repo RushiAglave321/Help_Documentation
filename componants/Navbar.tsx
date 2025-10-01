@@ -18,12 +18,16 @@ export default function Navbar() {
   return (
     <header className="w-full border-b shadow-sm">
       <div className="w-full bg-background px-6 py-3 flex items-center justify-between">
+       
         {/* Left side: Brand + Nav */}
         <div className="flex items-center gap-6">
           {/* Brand */}
-          <span className="text-xl font-bold text-[#36a06f]">
-            SpatioSynth Docs
-          </span>
+          <div className="flex gap-3">
+            <img src="/favicon.ico" alt="Logo" className="h-6 w-6" />
+            <span className="text-xl font-bold text-[#36a06f]">
+              SpatioSynth Docs
+            </span>
+          </div>
 
           {/* Navigation Menu */}
           <NavigationMenu>
@@ -60,15 +64,26 @@ export default function Navbar() {
             <MagnifyingGlassIcon className="h-4 w-4 text-muted-foreground" />
             <input
               type="text"
-              placeholder="Search..."
+              placeholder="Search Doc..."
               className="bg-transparent outline-none px-2 text-sm"
             />
           </div>
 
-          {/* Actions */}
-          <button className="px-4 py-1 bg-background text-foreground border rounded-md text-sm hover:bg-[#36a06f] hover:text-white cursor-pointer">
+          {/* Actions
+          // <Link href='https://www.giskernel.com/talk-to-us/'>
+          //   <button className="px-4 py-1 bg-background text-foreground border rounded-md text-sm hover:bg-[#36a06f] hover:text-white cursor-pointer">
+          //     Book a Demo
+          //   </button>
+          // </Link> */}
+          <a
+            href="https://www.giskernel.com/talk-to-us/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-1 bg-background text-foreground border rounded-md text-sm hover:bg-[#36a06f] hover:text-white cursor-pointer inline-block"
+          >
             Book a Demo
-          </button>
+          </a>
+
           <Link href="/">
             <button className="px-4 py-1 bg-purple-600 text-white rounded-md text-sm hover:bg-[#36a06f] cursor-pointer" >
               Get Started
