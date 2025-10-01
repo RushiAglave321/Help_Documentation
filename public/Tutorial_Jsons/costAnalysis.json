@@ -1,0 +1,39 @@
+{
+  "content": [
+    {
+      "title": "Cost Analysis",
+      "subtitle": "Estimate costs with zoning layers, measurement units, and configurable parameters.",
+      "description": [
+        "The Cost Analysis tool enables you to assign costs to different land-use zones and calculate expenses based on measurements such as area, length, or volume. Results are instantly visualized in infographics on the map."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Accessing Cost Options",
+          "description": [
+            "Open the layer menu and select 'Cost' (third option)."
+          ],
+          "media": {
+            "image": "demo-cost-access.png"
+          }
+        },
+        {
+          "descriptionTitle": "Configuration",
+          "description": [
+            "1. Select a predefined cost configuration and currency.",
+            "2. Assign Zoning Layers:",
+            "- Commercial Zones → Add relevant dataset.",
+            "- Residential Zones → Add relevant dataset.",
+            "3. Define Measurement Units per class:",
+            "- Square feet",
+            "- Linear feet",
+            "- Cubic feet (includes thickness for volume-based costs).",
+            "Finally, enter cost values, save, and run the model. Results will appear instantly in map infographics."
+          ],
+          "media": {
+            "image": "demo-cost-config.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "content": [
+    {
+      "title": "Customizing Layers",
+      "subtitle": "Change visualization styles and enable grid-based analysis for deeper insights.",
+      "description": [
+        "SEAk allows you to customize how layers are displayed, from simple styling options to advanced grid-based analysis. This improves both visualization and data interpretation."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Styling Layers",
+          "description": [
+            "Click the three-dot menu (More Options) next to a layer and select 'Style'.",
+            "Options available:",
+            "- Stroke: Adjust the color of polygon boundaries.",
+            "- Fill: Adjust the color inside polygons.",
+            "Use the color picker and opacity slider to set your preferences, then click 'Apply' and 'Submit'.",
+            "Updated styles instantly appear on the map and in infographics."
+          ],
+          "media": {
+            "image": "demo-layer-style.png"
+          }
+        },
+        {
+          "descriptionTitle": "Grid View",
+          "description": [
+            "From the same Style menu, select 'Grid'.",
+            "Use the '+' or '–' buttons to define grid size, then click 'Create Grid'.",
+            "The map will divide into grids.",
+            "Click on any grid cell to view detailed analytics, including class distribution, infographics, and metrics specific to that location."
+          ],
+          "media": {
+            "image": "demo-grid-view.png"
+          }
+        }
+      ]
+    }
+  ]
+}

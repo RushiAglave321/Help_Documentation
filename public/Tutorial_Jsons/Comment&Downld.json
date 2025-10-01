@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "title": "Collaboration Tools",
+      "subtitle": "Work seamlessly with your team using in-map comments and geotagged feedback.",
+      "description": [
+        "SEAk enables collaboration directly within the platform by allowing users to add, view, and respond to geolocated comments on the map. This ensures better communication and shared context while working on disaster assessments or environmental planning."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Comments",
+          "description": [
+            "Right-click on the map to add a comment at a specific location.",
+            "Access all comments by navigating to More Options → Comments.",
+            "Reply to geolocated comments to collaborate with your team effectively."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exporting Results",
+      "subtitle": "Easily generate and share professional reports from your analysis.",
+      "description": [
+        "SEAk allows you to export your analysis results into audit-ready PDF reports. This feature helps in sharing findings with stakeholders and maintaining proper documentation."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Download Report",
+          "description": [
+            "Navigate to More Options → Download Report.",
+            "Save your map visualization and results locally on your system as a PDF file."
+          ]
+        }
+      ]
+    }
+  ]
+}

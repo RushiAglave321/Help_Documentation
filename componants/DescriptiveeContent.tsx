@@ -1,5 +1,6 @@
 "use client";
 import Note from "./Note";
+import Pagination from "./Pagination";
 
 interface MediaProps {
   image?: string;
@@ -62,19 +63,12 @@ export default function DescriptiveeContent({ data }: DescriptiveeContentProps) 
 
       {/* Loop over descriptionSections */}
       {data?.descriptionSections?.map((section, idx) => (
-        <section key={idx} className="mt-8">
+        <section key={idx} id={`section-${idx}`} className="mt-8">
           <h4 className="text-lg font-semibold text-foreground">
             {section?.descriptionTitle}
           </h4>
           <div className="space-y-2">
-            {/* {section?.description.map((desc, j) => (
-              <p
-                key={j}
-                className="leading-relaxed text-muted-foreground text-justify"
-              >
-                {desc}
-              </p>
-            ))} */}
+           
             {section.descriptionType === "list" ? (
               <ul className="list-disc list-inside space-y-1">
                 {section.description.map((point, idx) => (
@@ -148,6 +142,7 @@ export default function DescriptiveeContent({ data }: DescriptiveeContentProps) 
 
         </section>
       ))}
+      <Pagination/>
     </article>
   );
 }

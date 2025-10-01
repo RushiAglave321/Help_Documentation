@@ -1,25 +1,15 @@
 "use client";
 import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
-import MediaViewer from "@/componants/MediaViewer";
-import Note from "@/componants/Note";
-import contentData from "@/public/WorkspaceData.json";
 import { useEffect, useState } from "react";
 
-// Media object inside each description section
-interface MediaProps {
-  image?: string;
-  video?: string;
-}
-
-// A single description section
+// Types
 interface DescriptionSection {
   descriptionTitle: string;
   description: string[];
-  media?: MediaProps;
+  media?: { image?: string; video?: string };
 }
 
-// The main content item
 interface ContentItem {
   title: string;
   subtitle?: string;
@@ -27,31 +17,36 @@ interface ContentItem {
   descriptionSections: DescriptionSection[];
 }
 
-// The top-level wrapper
 interface ContentData {
   content: ContentItem[];
 }
 
-
-const page = () => {
+const Page = () => {
   const [contentData, setContentData] = useState<ContentData | null>(null);
 
   useEffect(() => {
-    fetch("/New_Data.json")
+    fetch("/Tutorial_Jsons/New_Data.json")
       .then((res) => res.json())
       .then((data: ContentData) => setContentData(data));
   }, []);
 
-  if (!contentData) return <p>Loading...</p>;
+  if (!contentData) return <p className="text-center mt-20">Loading...</p>;
+
+  const pageData = contentData.content[0]; // first item
 
   return (
-    <div>
-      {contentData.content.map((item, idx) => (
-        <DescriptiveeContent key={idx} data={item} />
-      ))}
+    <div className="flex flex-1 gap-6">
+      {/* Main Content */}
+      <main className="flex-1 overflow-y-auto  max-h-screen">
+        <DescriptiveeContent data={pageData} />
+      </main>
+
+      {/* Right Docs Sidebar */}
+      <aside className="hidden xl:block w-80 border-l border-border bg-background p-4 overflow-y-auto scrollbar-hide">
+        <DocsPage data={pageData} />
+      </aside>
     </div>
   );
 };
 
-
-export default page
+export default Page;

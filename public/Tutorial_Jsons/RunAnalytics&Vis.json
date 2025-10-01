@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "title": "Running Analytics",
+      "subtitle": "Use the Analytics Tool to run AI models and specialized analyses on datasets.",
+      "description": [
+        "The Analytics Tool is a panel that enables you to apply AI models or other analytical workflows on your datasets for predictive and spatial insights."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Analytics Tool Overview",
+          "description": [
+            "The Analytics Tool allows you to run AI models and analyses on selected datasets.",
+            "Steps to run an analysis:",
+            "1. Select your dataset (Pre-event or Post-event).",
+            "2. Choose the desired model.",
+            "3. Click 'Run' to execute the model."
+          ],
+          "media": {
+            "image": "demo-analytics-tool.png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Visualizing Results",
+      "subtitle": "Explore model outputs and analysis results through the Layer View.",
+      "description": [
+        "Visualization tools in SEAk let you interactively explore AI model outputs, cost analyses, and grid-based assessments."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Layer View",
+          "description": [
+            "A Layer is a visual representation of data (e.g., AI model output, cost analysis, or grid-based analysis).",
+            "To view results, go to the Layer View under Models.",
+            "Click on the model name, and the results will appear on the map."
+          ],
+          "media": {
+            "image": "demo-layer-view.png"
+          }
+        },
+        {
+          "descriptionTitle": "Navigation Tools",
+          "description": [
+            "Zoom In/Out – Use the mouse wheel to zoom smoothly on the map.",
+            "Box Zoom – Hold the Shift key and drag to draw a box over the area you want to inspect."
+          ]
+        }
+      ]
+    }
+  ]
+}

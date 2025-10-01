@@ -1,0 +1,27 @@
+{
+  "content": [
+    {
+      "title": "Workspaces",
+      "subtitle": "Organize your analyses within projects by creating dedicated workspaces.",
+      "description": [
+        "A Workspace is a subdivision within a project where you can focus on a specific Area of Interest (AOI) or type of analysis. A project can contain multiple workspaces. You can either select an existing workspace, which will open the Map Dashboard, or create a new one."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Creating a New Workspace",
+          "descriptionType":"list",
+          "description": [
+            "Within your selected project, click the 'Create Workspace' button to begin setup.",
+            "Step 1: Workspace Details – Enter the Workspace Name and a short description. Choose a domain from the existing list or type in a custom domain. Click 'Next' to proceed.",
+            "Step 2: Set Area of Interest (AOI) – Define the AOI using one of three methods: (1) Select Existing AOI from dropdown, (2) Upload AOI file (KML, zipped SHP, or GeoJSON), or (3) Draw AOI manually using the search bar, Draw Tool, and Edit Tool. Click 'Save Draft' and then 'Next'.",
+            "Step 3: Select Assessments – Choose one or more pre-defined assessments applicable to your project. Click 'Save Draft' or 'Next' to continue.",
+            "Step 4: Model Selection – Select from the available pre-trained models and finally save the workspace."
+          ],
+          "media": {
+            "image": "demo-workspace.png"
+          }
+        }
+      ]
+    }
+  ]
+}

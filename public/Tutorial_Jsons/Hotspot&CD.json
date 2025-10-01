@@ -1,0 +1,81 @@
+{
+  "content": [
+    {
+      "title": "Hotspot Analysis",
+      "subtitle": "Identify zones with the highest concentration of debris or significant changes.",
+      "description": [
+        "The Hotspot Tool highlights areas most impacted by debris accumulation or environmental changes. This helps prioritize cleanup and resource allocation effectively."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "How to Access",
+          "description": [
+            "You can find the Hotspot tool under the Layer Menu → Hotspot."
+          ],
+        },
+        {
+          "descriptionTitle": "Parameters",
+          "description": [
+            "You can adjust the following parameters to refine hotspot results:",
+            "- Blur limit",
+            "- Radius"
+          ],
+          "media": {
+            "image": "demo-hotspot-params.png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Change Detection Analysis",
+      "subtitle": "Compare pre-disaster and post-disaster imagery to track changes over time.",
+      "description": [
+        "Change Detection Analysis identifies modifications in land cover and infrastructure between pre- and post-disaster imagery. Results are categorized, visualized, and quantified for better decision-making."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Purpose",
+          "description": [
+            "Detects and classifies differences between pre-disaster and post-disaster imagery."
+          ]
+        },
+        {
+          "descriptionTitle": "Workflow",
+          "description": [
+            "1. Go to Analytics Panel → Change Detection.",
+            "2. Select Pre-disaster Layer and Post-disaster Layer.",
+            "3. Name your result and run the analysis."
+          ],
+          "media": {
+            "image": "demo-change-workflow.png"
+          }
+        },
+        {
+          "descriptionTitle": "Outputs",
+          "description": [
+            "The analysis produces classes of change, which are color-coded with a legend:",
+            "- Modified Areas",
+            "- New Additions",
+            "- Missing Areas"
+          ],
+          "media": {
+            "image": "demo-change-output.png"
+          }
+        },
+        {
+          "descriptionTitle": "Visualization Tools",
+          "description": [
+            "Several visualization options are available:",
+            "- Time Series Timeline → Animated sequence of changes.",
+            "- Slider Tool → Side-by-side comparison of pre/post data.",
+            "- Table View → Tabular breakdown of changes.",
+            "- Hotspot Tool → Density and concentration of detected changes."
+          ],
+          "media": {
+            "image": "demo-change-visual.png"
+          }
+        }
+      ]
+    }
+  ]
+}

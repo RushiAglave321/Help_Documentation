@@ -19,7 +19,6 @@
         },
         {
           "descriptionTitle": "Creating a New Project",
-          "descriptionType": "list",
           "description": [
             "Navigate to the Projects section and click the 'Add New Project' button.",
             "In the form, enter the Project Name and Description.",

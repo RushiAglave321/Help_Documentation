@@ -1,46 +1,46 @@
-import Feedback from "@/componants/Feedback";
-import Link from "next/link";
+"use client";
+
+import Feedback from "./Feedback";
+
+interface DescriptionSection {
+  descriptionTitle: string;
+}
+
+interface ContentItem {
+  title: string;
+  subtitle?: string;
+  description: string[];
+  descriptionSections: DescriptionSection[];
+}
 
 interface DocsPageProps {
-  data: {
-    title: string;
-    links: { label: string; href: string; className?: string }[];
-    description: string;
-  };
+  data: ContentItem;
 }
 
 export default function DocsPage({ data }: DocsPageProps) {
+  const handleScroll = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-background flex justify-center px-2 py-4">
-      <article className="mainArticle max-w-3xl w-full bg-card shadow-md rounded-2xl p-4 border border-border">
-        {/* Links Section */}
-        <header className="mb-6">
-          {data?.links?.map((link, idx) => (
-            <div key={idx}>
-              <Link
-                href={link.href}
-                className={`hover:underline hover:text-primary transition ${link.className || ""}`}
-              >
-                {link.label}
-              </Link>
-              <br />
-            </div>
-          ))}
-        </header>
-
-        {/* Description Section */}
-        <section className="prose max-w-none text-muted-foreground leading-relaxed">
-          <p>{data?.description}</p>
-        </section>
-
-        {/* Feedback Section */}
-        <section className="mt-10 border-t border-border pt-6">
-          <h2 className="text-xl font-semibold text-foreground mb-3">
-            Was this page helpful?
-          </h2>
-          <Feedback />
-        </section>
-      </article>
+    <div>
+      <h3 className="text-xl font-semibold mb-4">On this page</h3>
+      <ul className="space-y-2">
+        {data?.descriptionSections?.map((section, idx) => (
+          <li key={idx}>
+            <button
+              onClick={() => handleScroll(`section-${idx}`)}
+              className="text-sm text-blue-600 hover:underline"
+            >
+              {section.descriptionTitle}
+            </button>
+          </li>
+        ))}
+      </ul>
+      <Feedback/>
     </div>
   );
 }

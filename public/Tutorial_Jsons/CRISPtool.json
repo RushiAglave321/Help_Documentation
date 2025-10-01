@@ -1,0 +1,63 @@
+{
+  "content": [
+    {
+      "title": "SEAk Aware Analysis Workflow",
+      "subtitle": "Leverage SEAk Aware tools for environmental integrated planning and debris risk assessment.",
+      "description": [
+        "The SEAk Aware Analysis Workflow allows users to configure environmental zones, run integrated debris analyses, and generate insightful visualizations for informed decision-making."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "SEAk Aware Configuration",
+          "descriptionType":"list",
+          "description": [
+            "Access this feature under More Options → SEAk Aware Configuration.",
+            "Here, you can:",
+            "- View all SEAk Aware layers",
+            "- Toggle layer visibility",
+            "- Apply zone filters (e.g., restriction or warning zones)",
+            "- Add descriptions and notes",
+            "- Define habitat selections and upload relevant datasets",
+            "- Save your configurations for reuse"
+          ],
+          "media": {
+            "image": "demo-seak-config.png"
+          }
+        },
+        {
+          "descriptionTitle": "Running SEAk Aware Analysis",
+          "descriptionType":"list",
+          "description": [
+            "1. Navigate to Analytics Tool → SEAk Aware Analysis.",
+            "2. Select the prediction layer.",
+            "3. Name your result and run the analysis."
+          ],
+          "media": {
+            "image": "demo-seak-run.png"
+          }
+        },
+        {
+          "descriptionTitle": "Results",
+          "descriptionType":"list",
+          "description": [
+            "The analysis provides multiple outputs to support planning and monitoring:",
+            "- Graphical Summaries: Highlight warnings and restriction zones",
+            "- Map Hotspots: Toggle debris and risk layers",
+            "- Inspect Tool: Click debris points for detailed metadata",
+            "- Line Graph & Attribute Table: Review attributes such as type, class, cost, and area"
+          ]
+        },
+        {
+          "descriptionTitle": "Proximity Analysis",
+          "descriptionType":"list",
+          "description": [
+            "SEAk Aware also integrates proximity-based tools for deeper insights:",
+            "- Debris Near Infrastructure: Enter distance value and units to identify debris near roads, boat routes, and beach accesses.",
+            "- Debris in Critical Habitats: Enter distance value and units to identify debris close to community and critical habitats.",
+            "Cost-based charts can be visualized, and comprehensive reports can be downloaded by clicking on the Download Report button."
+          ]
+        }
+      ]
+    }
+  ]
+}
