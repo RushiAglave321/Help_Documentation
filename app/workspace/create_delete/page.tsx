@@ -25,7 +25,7 @@ const Page = () => {
   const [contentData, setContentData] = useState<ContentData | null>(null);
 
   useEffect(() => {
-    fetch("/Tutorial_Jsons/DashboardComponents.json")
+    fetch("/Tutorial_Jsons/DashboardComponantsNew.json")
       .then((res) => res.json())
       .then((data: ContentData) => setContentData(data));
   }, []);
@@ -35,7 +35,7 @@ const Page = () => {
   const pageData = contentData.content[0]; // first item
 
   return (
-    <div className="flex flex-1 gap-6">
+    <div className="flex flex-1">
       {/* Main Content */}
       <main className="flex-1 overflow-y-auto  max-h-screen">
         <DescriptiveeContent data={pageData} />

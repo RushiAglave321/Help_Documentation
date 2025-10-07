@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="w-full border-b shadow-sm">
       <div className="w-full bg-background px-6 py-3 flex items-center justify-between">
-       
+
         {/* Left side: Brand + Nav */}
         <div className="flex items-center gap-6">
           {/* Brand */}
@@ -76,7 +76,7 @@ export default function Navbar() {
           //   </button>
           // </Link> */}
           <a
-            href="https://www.giskernel.com/talk-to-us/"
+            href="https://spatiosynth.com/#contact-us"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-1 bg-background text-foreground border rounded-md text-sm hover:bg-[#36a06f] hover:text-white cursor-pointer inline-block"
@@ -84,11 +84,13 @@ export default function Navbar() {
             Book a Demo
           </a>
 
-          <Link href="/">
-            <button className="px-4 py-1 bg-purple-600 text-white rounded-md text-sm hover:bg-[#36a06f] cursor-pointer" >
-              Get Started
-            </button>
-          </Link>
+          <a href="https://spatiosynth.com/"
+            className="px-4 py-1 bg-purple-600 text-white rounded-md text-sm hover:bg-[#36a06f] cursor-pointer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Started
+          </a>
 
           {/* Theme Toggle */}
           <ModeToggle />

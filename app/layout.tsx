@@ -25,16 +25,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SidebarProvider>
             <div className="flex flex-1 overflow-hidden pt-16">
               {/* Left Sidebar */}
-              <aside className="hidden lg:flex flex-col w-64 border-r border-gray-200 dark:border-border bg-white dark:bg-background overflow-y-auto scrollbar-hide p-4">
+              <aside className="hidden lg:flex flex-col w-64 border-r border-gray-200 dark:border-border bg-white dark:bg-background overflow-y-auto scrollbar-hide">
                 <AppSidebar />
               </aside>
 
               {/* Main Content */}
-              <main className="flex-1 p-6 overflow-y-auto max-h-screen bg-gray-50 dark:bg-background">
+              <main className="flex-1 overflow-y-auto max-h-screen bg-gray-50 dark:bg-background">
                 {children}
-                <div className="mt-6">
-                  {/* <Pagination /> */}
-                </div>
               </main>
             </div>
           </SidebarProvider>

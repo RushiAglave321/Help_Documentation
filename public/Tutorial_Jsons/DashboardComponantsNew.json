@@ -9,6 +9,7 @@
       "descriptionSections": [
         {
           "descriptionTitle": "Entering the Map Dashboard",
+          "descriptionType":"list",
           "description": [
             "In the Projects section, navigate to the desired Project.",
             "Click on the relevant Workspace.",
@@ -17,6 +18,9 @@
         },
         {
           "descriptionTitle": "Components of the Map Dashboard",
+          "media": {
+            "image": "https://giskernel-my.sharepoint.com/:i:/p/rushikesh/EUtZJgugTVNDvzSc1PEgb4sBaRAJNvtY73DTdqqCqRVqkA?e=VftRV7&download=1"
+          },
           "table": {
             "columns": [
               "Components",
@@ -104,10 +108,8 @@
                 "Zoom controls for navigating the map."
               ]
             ]
-          },
-          "media": {
-            "image": "https://giskernel-my.sharepoint.com/:i:/p/rushikesh/EUtZJgugTVNDvzSc1PEgb4sBaRAJNvtY73DTdqqCqRVqkA?e=VftRV7&download=1"
           }
+          
         }
       ]
     }

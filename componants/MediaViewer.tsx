@@ -23,6 +23,10 @@ const MediaViewer: React.FC<MediaProps> = ({ src, alt = "media", type, className
         <video
           src={src}
           controls
+          autoPlay
+          muted
+          loop
+          playsInline
           className="max-w-full rounded-lg shadow-md"
         />
       ) : (

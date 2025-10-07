@@ -29,31 +29,17 @@ export default function DocsSidebar() {
 
   // Active link styling
   const linkClasses = (href: string) =>
-    `flex items-center gap-2 px-3 py-1.5 rounded-md transition relative text-sm ${
-      pathname === href
-        ? "bg-blue-50 text-blue-700 font-medium before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-600"
-        : "text-gray-700 hover:bg-gray-100 hover:text-blue-600 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-blue-400"
+    `flex items-center gap-2 px-3 py-1.5 rounded-md transition relative text-sm ${pathname === href
+      ? "bg-blue-50 text-blue-700 font-medium before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-600"
+      : "text-gray-700 hover:bg-gray-100 hover:text-blue-600 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-blue-400"
     }`;
 
   return (
-    <Sidebar className="w-64 h-screen sticky top-0 border-r bg-white dark:bg-gray-900 flex flex-col">
+    <Sidebar className="w-64 h-screen border-r bg-white dark:bg-gray-900 flex flex-col">
       {/* Logo/Header */}
       <SidebarHeader className="px-4 py-4 border-b dark:border-gray-800 flex items-center gap-2">
-        {/* <img src="/logo.svg" alt="Logo" className="h-6 w-6" /> */}
         <span className="font-semibold text-lg dark:text-white">Documentation</span>
       </SidebarHeader>
-
-      {/* Search Box */}
-      {/* <div className="px-4 py-3 border-b dark:border-gray-800">
-        <div className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 rounded-md px-2 py-1">
-          <Search size={16} className="text-gray-500" />
-          <input
-            type="text"
-            placeholder="Search docs..."
-            className="w-full bg-transparent focus:outline-none text-sm text-gray-700 dark:text-gray-200"
-          />
-        </div>
-      </div> */}
 
       {/* Scrollable content */}
       <SidebarContent className="flex-1 overflow-y-auto px-2 py-3">
@@ -88,6 +74,11 @@ export default function DocsSidebar() {
           );
         })}
       </SidebarContent>
+
+      {/* Sticky Footer */}
+      <div className="flex-shrink-0 px-4 py-3 border-t text-xs text-gray-500 dark:text-gray-400 bg-background">
+        Powered by <span className="font-medium text-gray-700 dark:text-gray-200">GisKernel Technologies</span>
+      </div>
     </Sidebar>
   );
 }

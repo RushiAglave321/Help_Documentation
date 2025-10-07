@@ -8,11 +8,15 @@
       ],
       "descriptionSections": [
         {
+          "media": {
+            "video": "https://giskernel-my.sharepoint.com/:v:/p/rushikesh/EY3vNWLPtfFIoxY3s337hVkBLXet8KQFtRw0HAJ384gxUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NCLgIT&download=1"
+          },
           "descriptionTitle": "Introduction",
           "description": [
             "SEAk is designed to simplify and accelerate post-disaster damage assessment.",
             "The platform leverages GeoAI to process aerial imagery and generate actionable insights without requiring coding expertise."
           ]
+          
         },
         {
           "descriptionTitle": "Platform Overview – Section Guide",

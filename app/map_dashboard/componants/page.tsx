@@ -35,7 +35,7 @@ const Page = () => {
   const pageData = contentData.content[0]; // first item
 
   return (
-    <div className="flex flex-1 gap-6">
+    <div className="flex flex-1">
       {/* Main Content */}
       <main className="flex-1 overflow-y-auto  max-h-screen">
         <DescriptiveeContent data={pageData} />
