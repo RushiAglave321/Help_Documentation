@@ -1,3 +1,5 @@
+
+
 "use client";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
@@ -5,12 +7,12 @@ import { ImageIcon, RocketIcon, UsersIcon, CodeIcon } from "lucide-react";
 import Image from "next/image";
 
 const cards = [
-  {
-    icon: <CodeIcon className="w-10 h-10 text-purple-600" />,
-    title: "Introduction",
-    description: "Learn about SpatioSynth.",
-    href: "/introduction/introduction",
-  },
+  // {
+  //   icon: <CodeIcon className="w-10 h-10 text-purple-600" />,
+  //   title: "Introduction",
+  //   description: "Learn about SpatioSynth.",
+  //   href: "/introduction/introduction",
+  // },
   {
     icon: <CodeIcon className="w-10 h-10 text-purple-600" />,
     title: "Projects",
@@ -24,10 +26,22 @@ const cards = [
     href: "/workspace/create_delete",
   },
   {
+    icon: <UsersIcon className="w-10 h-10 text-purple-600" />,
+    title: "AOI",
+    description: "Create, Edit, and Delete AOI.",
+    href: "/aoi/create_delete",
+  },
+  {
     icon: <RocketIcon className="w-10 h-10 text-purple-600" />,
     title: "Models",
     description: "Train state-of-the-art models with a few clicks.",
     href: "/models/create_delete",
+  },
+  {
+    icon: <RocketIcon className="w-10 h-10 text-purple-600" />,
+    title: "Datasets",
+    description: "upload and manage raster and vector data.",
+    href: "/datasets/raster",
   },
   {
     icon: <ImageIcon className="w-10 h-10 text-purple-600" />,
@@ -68,39 +82,66 @@ export default function FeatureCards() {
   return (
     <div className="p-6 max-w-7xl mx-auto space-y-12">
       {/* Heading */}
-      <h1 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white text-center">
+      <h1 className="text-4xl font-bold mb-3 text-gray-900 dark:text-white text-left">
         SpatioSynth Documentation
       </h1>
+      <div className="border-b border-gray-300 dark:border-gray-700 border-b-1 pb-4 mb-8">
+        Welcome to the SpatioSynth Documentation!
+      </div>
 
-      <blockquote className="text-lg text-center italic bg-muted text-muted-foreground mb-6 p-2 rounded-md">
+      <blockquote className="text-lg text-center italic bg-qutoes-back-color text-qutoes-text-color mb-6 p-2 rounded-md border-b border-gray-300 border-b-1">
         "SpatioSynth is designed to simplify and accelerate post-disaster damage
         assessment. The platform leverages GeoAI to process aerial imagery and
         generate actionable insights without requiring coding expertise."
       </blockquote>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {cards.map((card, idx) => (
-          <Card
-            key={idx}
-            className="group shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-2 duration-300 rounded-xl border border-border dark:border-gray-700"
+      <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white text-center pt-1">
+        How to use the docs
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* {cards.map((card, idx) => (
+          <Link
+            href={card.href}
           >
-            <CardContent className="flex flex-col items-start space-y-4 p-6">
-              <div className="bg-purple-100 dark:bg-purple-900 p-4 rounded-lg group-hover:bg-purple-200 transition-colors">
-                {card.icon}
-              </div>
-              <Link
-                href={card.href}
-                className="text-lg font-semibold text-gray-900 dark:text-white hover:text-purple-600 transition-colors"
-              >
-                {card.title}
-              </Link>
-              <p className="text-sm text-gray-600 dark:text-gray-300">
-                {card.description}
-              </p>
-            </CardContent>
-          </Card>
+            <Card
+              key={idx}
+              className="group shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-1 duration-300 rounded-xl border border-border dark:border-gray-700 "
+            >
+              <CardContent className="flex flex-col items-start space-y-4 p-6">
+                <div className="bg-purple-100 p-4 rounded-lg group-hover:bg-purple-200 transition-colors">
+                  {card.icon}
+                </div>
+                <div
+                  className="text-lg font-semibold text-gray-900 dark:text-white hover:text-purple-600 transition-colors"
+                >
+                  {card.title}
+                </div>
+                <p className="text-sm text-gray-600 dark:text-gray-300">
+                  {card.description}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
+        ))} */}
+        {cards.map((card, idx) => (
+          <Link href={card.href} key={idx}>
+            <Card className="group shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-1 duration-300 rounded-xl border border-border dark:border-gray-700 ">
+              <CardContent className="flex flex-col items-start space-y-4 p-6">
+                <div className="bg-purple-100 p-4 rounded-lg group-hover:bg-purple-200 transition-colors">
+                  {card.icon}
+                </div>
+                <div className="text-lg font-semibold text-gray-900 dark:text-white hover:text-purple-600 transition-colors">
+                  {card.title}
+                </div>
+                <p className="text-sm text-gray-600 dark:text-gray-300">
+                  {card.description}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
         ))}
+
       </div>
 
       {/*  Scrolling Section */}
@@ -111,9 +152,31 @@ export default function FeatureCards() {
 
         <div className="relative overflow-hidden group">
           <div className="flex scroll-animation space-x-8">
-            {[...scrollingCards, ...scrollingCards].map((item, idx) => (
+            {/* {[...scrollingCards, ...scrollingCards].map((item, idx) => (
               <div
                 key={idx}
+                className="min-w-[300px] max-w-[320px] bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-gray-200 dark:border-gray-700"
+              >
+                <Image
+                  src={item.img}
+                  alt={item.title}
+                  width={400}
+                  height={250}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-lg text-gray-900 dark:text-white">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))} */}
+            {[...scrollingCards, ...scrollingCards].map((item, idx) => (
+              <div
+                key={`${item.title}-${idx}`}
                 className="min-w-[300px] max-w-[320px] bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-gray-200 dark:border-gray-700"
               >
                 <Image

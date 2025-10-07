@@ -15,27 +15,19 @@ export const routes: RouteGroup[] = [
     { title: "Introduction", href: "/introduction/introduction" },
   ]},
 
-  // { section: "Drafts", items: [
-  //   { title: "Check Drafts", href: "/drafts/check" },
-  // ]},
-
   { section: "Projects", items: [
     { title: "Create / Delete a Project", href: "/projects/create_delete" },
-    // { title: "Rename a Project", href: "/projects/rename" },
-    // { title: "Delete a Project", href: "/projects/delete" },
   ]},
-
-//   { section: "Team Members", items: [
-//     { title: "Invite a Team Member", href: "/team/invite" },
-//     { title: "Role-Based Access Control", href: "/team/rbac" },
-//     { title: "Change Role", href: "/team/change-role" },
-//     { title: "Remove Member", href: "/team/remove" },
-//   ]},
 
   { section: "Workspace", items: [
     { title: "Create / Delete Workspace", href: "/workspace/create_delete" },
     { title: "Drafts", href: "/workspace/drafts" },
-    { title: "AOI", href: "/workspace/aois" },
+    // { title: "AOI", href: "/workspace/aois" },
+  ]},
+
+  { section: "AOI", items: [
+    { title: "Create / Delete aoi's", href: "/aoi/create_delete" },
+    { title: "Edit", href: "/aoi/edit" },
   ]},
 
   { section: "Models", items: [
@@ -43,6 +35,11 @@ export const routes: RouteGroup[] = [
     { title: "Model Annotation", href: "/models/annotation" },
     { title: "Model Datasets", href: "/models/datasets" },
     { title: "Model Training", href: "/models/tranining" },
+  ]},
+
+  { section: "Datasets", items: [
+    { title: "Raster", href: "/datasets/raster" },
+    { title: "Vector", href: "/datasets/vector" },
   ]},
 
   { section: "Map Dashboard", items: [

@@ -80,9 +80,9 @@
 }
 
 .dark {
-  --background: oklch(0% 0 0);
+  --background:#131313;
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
+  --card: color-mix(in oklab, #fff 12%, transparent);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
@@ -111,6 +111,9 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  /* custom colors */
+  --qutoes-text-color: #dcdcdc;
+  --qutoes-back-color: #212121;
 }
 
 @layer base {

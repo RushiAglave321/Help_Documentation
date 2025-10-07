@@ -1,4 +1,3 @@
-import DocsPage from "@/componants/DocsPage";
 import "./globals.css";
 import Navbar from "@/componants/Navbar";
 import { ThemeProvider } from "./theme/ThemeProvider";
