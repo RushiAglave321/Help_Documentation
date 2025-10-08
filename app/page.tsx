@@ -3,7 +3,7 @@
 "use client";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
-import { ImageIcon, RocketIcon, UsersIcon, CodeIcon } from "lucide-react";
+import { ImageIcon, RocketIcon, UsersIcon, CodeIcon, BringToFront, VectorSquare } from "lucide-react";
 import Image from "next/image";
 
 const cards = [
@@ -26,7 +26,7 @@ const cards = [
     href: "/workspace/create_delete",
   },
   {
-    icon: <UsersIcon className="w-10 h-10 text-purple-600" />,
+    icon: <VectorSquare className="w-10 h-10 text-purple-600" />,
     title: "AOI",
     description: "Create, Edit, and Delete AOI.",
     href: "/aoi/create_delete",
@@ -38,7 +38,7 @@ const cards = [
     href: "/models/create_delete",
   },
   {
-    icon: <RocketIcon className="w-10 h-10 text-purple-600" />,
+    icon: <BringToFront className="w-10 h-10 text-purple-600" />,
     title: "Datasets",
     description: "upload and manage raster and vector data.",
     href: "/datasets/raster",

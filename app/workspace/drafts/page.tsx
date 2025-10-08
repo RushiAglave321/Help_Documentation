@@ -1,34 +1,8 @@
-"use client";
 import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
-import { useEffect, useState } from "react";
-
-// Types
-interface DescriptionSection {
-  descriptionTitle: string;
-  description: string[];
-  media?: { image?: string; video?: string };
-}
-
-interface ContentItem {
-  title: string;
-  subtitle?: string;
-  description: string[];
-  descriptionSections: DescriptionSection[];
-}
-
-interface ContentData {
-  content: ContentItem[];
-}
+import contentData from "@/public/Tutorial_Jsons/Intro_sections.json";
 
 const Page = () => {
-  const [contentData, setContentData] = useState<ContentData | null>(null);
-
-  useEffect(() => {
-    fetch("/Tutorial_Jsons/DashboardComponents.json")
-      .then((res) => res.json())
-      .then((data: ContentData) => setContentData(data));
-  }, []);
 
   if (!contentData) return <p className="text-center mt-20">Loading...</p>;
 
