@@ -25,7 +25,7 @@ export default function Navbar() {
           <div className="flex gap-3">
             <img src="/favicon.ico" alt="Logo" className="h-6 w-6" />
             <span className="text-xl font-bold text-[#36a06f]">
-              SpatioSynth Docs
+              Seak Docs
             </span>
           </div>
 
@@ -42,7 +42,7 @@ export default function Navbar() {
                       Overview of features and usage.
                     </ListItem>
                     <ListItem href="/" title="Getting Started">
-                      How to get started with SpatioSynth.
+                      How to get started with Seak.
                     </ListItem>
                     <ListItem href="/docs/api" title="API Reference">
                       Detailed API and configuration options.
@@ -102,7 +102,7 @@ export default function Navbar() {
 }
 
 /* Reusable List Item */
-function ListItem({
+function ListItem({ 
   title,
   children,
   href,

@@ -51,6 +51,9 @@ export const routes: RouteGroup[] = [
     { title: "Proximity Analysis", href: "/map_dashboard/proximity" },
     { title: "Map Tools", href: "/map_dashboard/map_tools" },
     { title: "Adding Comments", href: "/map_dashboard/comments" },
+    { title: "Cost Analysis", href: "/map_dashboard/costanalysis" },
+    { title: "Crisp Tool", href: "/map_dashboard/crisp" },
+    { title: "Change Detection", href: "/map_dashboard/changedetection" },
   ]},
 
   { section: "Other", items: [

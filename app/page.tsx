@@ -3,14 +3,14 @@
 "use client";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
-import { ImageIcon, RocketIcon, UsersIcon, CodeIcon } from "lucide-react";
+import { ImageIcon, RocketIcon, UsersIcon, CodeIcon, VectorSquare, BringToFront } from "lucide-react";
 import Image from "next/image";
 
 const cards = [
   // {
   //   icon: <CodeIcon className="w-10 h-10 text-purple-600" />,
   //   title: "Introduction",
-  //   description: "Learn about SpatioSynth.",
+  //   description: "Learn about Seak.",
   //   href: "/introduction/introduction",
   // },
   {
@@ -26,7 +26,7 @@ const cards = [
     href: "/workspace/create_delete",
   },
   {
-    icon: <UsersIcon className="w-10 h-10 text-purple-600" />,
+    icon: <VectorSquare className="w-10 h-10 text-purple-600" />,
     title: "AOI",
     description: "Create, Edit, and Delete AOI.",
     href: "/aoi/create_delete",
@@ -38,7 +38,7 @@ const cards = [
     href: "/models/create_delete",
   },
   {
-    icon: <RocketIcon className="w-10 h-10 text-purple-600" />,
+    icon: <BringToFront  className="w-10 h-10 text-purple-600" />,
     title: "Datasets",
     description: "upload and manage raster and vector data.",
     href: "/datasets/raster",
@@ -83,14 +83,14 @@ export default function FeatureCards() {
     <div className="p-6 max-w-7xl mx-auto space-y-12">
       {/* Heading */}
       <h1 className="text-4xl font-bold mb-3 text-gray-900 dark:text-white text-left">
-        SpatioSynth Documentation
+        Seak Documentation
       </h1>
       <div className="border-b border-gray-300 dark:border-gray-700 border-b-1 pb-4 mb-8">
-        Welcome to the SpatioSynth Documentation!
+        Welcome to the Seak Documentation!
       </div>
 
       <blockquote className="text-lg text-center italic bg-qutoes-back-color text-qutoes-text-color mb-6 p-2 rounded-md border-b border-gray-300 border-b-1">
-        "SpatioSynth is designed to simplify and accelerate post-disaster damage
+        "Seak is designed to simplify and accelerate post-disaster damage
         assessment. The platform leverages GeoAI to process aerial imagery and
         generate actionable insights without requiring coding expertise."
       </blockquote>
@@ -147,7 +147,7 @@ export default function FeatureCards() {
       {/*  Scrolling Section */}
       <div className="mt-16">
         <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
-          Core Capabilities of SpatioSynth
+          Core Capabilities of Seak
         </h2>
 
         <div className="relative overflow-hidden group">
