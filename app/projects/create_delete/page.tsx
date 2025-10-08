@@ -1,39 +1,13 @@
-"use client";
 import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
-import { useEffect, useState } from "react";
+import contentData from "@/public/Tutorial_Jsons/Intro_sections.json";
 
-// Types
-interface DescriptionSection {
-  descriptionTitle: string;
-  description: string[];
-  media?: { image?: string; video?: string };
-}
-
-interface ContentItem {
-  title: string;
-  subtitle?: string;
-  description: string[];
-  descriptionSections: DescriptionSection[];
-}
-
-interface ContentData {
-  content: ContentItem[];
-}
 
 const Page = () => {
-  const [contentData, setContentData] = useState<ContentData | null>(null);
-
-  useEffect(() => {
-    fetch("/Tutorial_Jsons/projectCreate.json")
-      .then((res) => res.json())
-      .then((data: ContentData) => setContentData(data));
-  }, []);
 
   if (!contentData) return <p className="text-center mt-20">Loading...</p>;
 
   const pageData = contentData.content[0]; // first item
-  console.log("pagedata",pageData)
 
   return (
     <div className="flex flex-1">

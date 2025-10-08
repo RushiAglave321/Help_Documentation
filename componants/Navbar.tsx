@@ -22,11 +22,23 @@ export default function Navbar() {
         {/* Left side: Brand + Nav */}
         <div className="flex items-center gap-6">
           {/* Brand */}
+          {/* <div className="flex gap-3">
+            <img src="/SEAk_logo_white.svg" alt="Logo" className="h-10 w-15" />
+          </div> */}
           <div className="flex gap-3">
-            <img src="/favicon.ico" alt="Logo" className="h-6 w-6" />
-            <span className="text-xl font-bold text-[#36a06f]">
-              Seak Docs
-            </span>
+            {/* Logo for light theme */}
+            <img
+              src="/SEAk_logo_black.svg"
+              alt="Logo Dark"
+              className="h-10 w-15 dark:hidden"
+            />
+
+            {/* Logo for dark theme */}
+            <img
+              src="/SEAk_logo_white.svg"
+              alt="Logo Light"
+              className="h-10 w-15 hidden dark:block"
+            />
           </div>
 
           {/* Navigation Menu */}
@@ -102,7 +114,7 @@ export default function Navbar() {
 }
 
 /* Reusable List Item */
-function ListItem({ 
+function ListItem({
   title,
   children,
   href,

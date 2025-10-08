@@ -9,7 +9,6 @@
       "descriptionSections": [
         {
           "descriptionTitle": "SEAk Aware Configuration",
-          "descriptionType":"list",
           "description": [
             "Access this feature under More Options → SEAk Aware Configuration.",
             "Here, you can:",
@@ -26,7 +25,6 @@
         },
         {
           "descriptionTitle": "Running SEAk Aware Analysis",
-          "descriptionType":"list",
           "description": [
             "1. Navigate to Analytics Tool → SEAk Aware Analysis.",
             "2. Select the prediction layer.",
@@ -38,7 +36,6 @@
         },
         {
           "descriptionTitle": "Results",
-          "descriptionType":"list",
           "description": [
             "The analysis provides multiple outputs to support planning and monitoring:",
             "- Graphical Summaries: Highlight warnings and restriction zones",
@@ -49,7 +46,6 @@
         },
         {
           "descriptionTitle": "Proximity Analysis",
-          "descriptionType":"list",
           "description": [
             "SEAk Aware also integrates proximity-based tools for deeper insights:",
             "- Debris Near Infrastructure: Enter distance value and units to identify debris near roads, boat routes, and beach accesses.",

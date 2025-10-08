@@ -3,7 +3,6 @@ import Navbar from "@/componants/Navbar";
 import { ThemeProvider } from "./theme/ThemeProvider";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import AppSidebar from "@/componants/AppSidebar";
-import Pagination from "@/componants/Pagination";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
