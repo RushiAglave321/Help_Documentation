@@ -44,12 +44,12 @@ export default function Navbar() {
                     <ListItem href="/" title="Getting Started">
                       How to get started with SpatioSynth.
                     </ListItem>
-                    <ListItem href="/docs/api" title="API Reference">
+                    {/* <ListItem href="/docs/api" title="API Reference">
                       Detailed API and configuration options.
                     </ListItem>
                     <ListItem href="/docs/changelog" title="Changelog">
                       Latest updates and release notes.
-                    </ListItem>
+                    </ListItem> */}
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
@@ -60,14 +60,14 @@ export default function Navbar() {
         {/* Right side: Search + Actions */}
         <div className="flex items-center gap-4">
           {/* Search */}
-          <div className="flex items-center bg-muted px-2 py-1 rounded">
+          {/* <div className="flex items-center bg-muted px-2 py-1 rounded">
             <MagnifyingGlassIcon className="h-4 w-4 text-muted-foreground" />
             <input
               type="text"
               placeholder="Search Doc..."
               className="bg-transparent outline-none px-2 text-sm"
             />
-          </div>
+          </div> */}
 
           {/* Actions
           // <Link href='https://www.giskernel.com/talk-to-us/'>

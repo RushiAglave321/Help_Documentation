@@ -40,7 +40,7 @@ export default function DocsPage({ data }: DocsPageProps) {
           </li>
         ))}
       </ul>
-      <Feedback/>
+      {/* <Feedback/> */}
     </div>
   );
 }
