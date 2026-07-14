@@ -17,7 +17,7 @@ const Page = () => {
       </main>
 
       {/* Right Docs Sidebar */}
-      <aside className="hidden xl:block w-80 border-l border-border bg-background p-4 overflow-y-auto scrollbar-hide">
+      <aside className="hidden lg:block w-72 border-l border-border bg-background p-4 overflow-y-auto scrollbar-hide">
         <DocsPage data={pageData} />
       </aside>
     </div>
