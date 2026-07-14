@@ -1,0 +1,20 @@
+{
+    "content" : [
+        {
+            "title": "Compare Map",
+            "description":["This section allows users to compare two datasets from different time periods for the same location, side by side."],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "Compare Map",
+                    "descriptionType": "list",
+                    "description": [
+                        "To compare two datasets, select the Compare Map tool from the Analytics Tools menu on the left side of the map dashboard.",
+                        "A split-screen window will appear. Choose the desired data layer from the dropdown menu at the top of each section. ",
+                        "You can also change the base map using the icon in the top-left corner of each section and zoom in or out to focus on specific regions for comparison.  ",
+                        "Click the Back icon in the top-left corner to return to the main map dashboard. "
+                    ]
+                }
+            ]    
+        }
+    ]
+}

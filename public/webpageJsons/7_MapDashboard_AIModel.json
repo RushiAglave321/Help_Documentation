@@ -1,0 +1,24 @@
+{
+    "content": [{
+        "title": "Running an AI Model",
+        "descriptionSections": [
+            {
+                "descriptionTitle": "Steps to Run an AI Model",
+                "descriptionType": "list",
+                "description": [
+                    "Navigate to the Run AI Model section from the left toolbar.",
+                    "Select the raster dataset from the 'Select Dataset' dropdown.",
+                    "Select the model category by choosing either Public or Private.",
+                    "If Public is selected, all publicly available pre-trained models will be listed in the 'Select Model' dropdown.",
+                    "If Private is selected, all AI models created by you will be listed in the 'Select Model' dropdown.",
+                    "Select the required model from the 'Select Model' dropdown.",
+                    "Click 'Run Assessments'.",
+                    "Now in Run Prediction modal give the layer group name & current date (default selected).",
+                    "Click on <B>Run</B> to start the AI prediction.",
+                    "Once processing is complete, the generated output will be available under the Models section in the layer list."
+                ],
+                "Note": "After clicking Run, you'll receive a notification indicating whether the prediction started or failed. The prediction layer will appear in the Layer List under Model Layers, along with its completion percentage."
+            }
+        ]
+    }]
+}

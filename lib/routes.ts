@@ -21,19 +21,19 @@ export const routes: RouteGroup[] = [
 
   { section: "Workspace", items: [
     { title: "Create / Delete Workspace", href: "/workspace/create_delete" },
-    { title: "Drafts", href: "/workspace/drafts" },
+    // { title: "Drafts", href: "/workspace/drafts" },
     // { title: "AOI", href: "/workspace/aois" },
   ]},
 
   { section: "AOI", items: [
     { title: "Create / Delete aoi's", href: "/aoi/create_delete" },
-    { title: "Edit", href: "/aoi/edit" },
+    // { title: "Edit", href: "/aoi/edit" },
   ]},
 
   { section: "Models", items: [
     { title: "Create / Delete a Model", href: "/models/create_delete" },
     { title: "Model Annotation", href: "/models/annotation" },
-    { title: "Model Datasets", href: "/models/datasets" },
+    // { title: "Model Datasets", href: "/models/datasets" },
     { title: "Model Training", href: "/models/tranining" },
   ]},
 
@@ -42,17 +42,26 @@ export const routes: RouteGroup[] = [
     { title: "Vector", href: "/datasets/vector" },
   ]},
 
-  { section: "Map Dashboard", items: [
-    { title: "Dashboard Componants", href: "/map_dashboard/componants" },
-    { title: "Assessment", href: "/map_dashboard/assessment" },
-    { title: "Annotate Tool", href: "/map_dashboard/annotation" },
-    { title: "Run AI Model", href: "/map_dashboard/model_running" },
-    { title: "Result Visulization", href: "/map_dashboard/result" },
-    { title: "Proximity Analysis", href: "/map_dashboard/proximity" },
-    { title: "Map Tools", href: "/map_dashboard/map_tools" },
-    { title: "Adding Comments", href: "/map_dashboard/comments" },
+  { section: "Map Annotations", items: [
+    { title: "Map Annotations", href: "/map_annotation/map_annotation" },
   ]},
 
+  { section: "Map Dashboard", items: [
+    { title: "Run AI Model", href: "/map_dashboard/model_running" },
+    // { title: "Dashboard Componants", href: "/map_dashboard/componants" },
+    { title: "Compare Map", href: "/map_dashboard/comparemap" },
+    { title: "Proximity Analysis", href: "/map_dashboard/proximity" },
+    { title: "Assessment", href: "/map_dashboard/assessment" },
+    { title: "Annotate Tool", href: "/map_dashboard/annotation" },
+    { title: "Timeseries", href: "/map_dashboard/timeseries" },
+    { title: "Layer List", href: "/map_dashboard/Layerlist" },
+    { title: "Map Tools", href: "/map_dashboard/map_tools" },
+    // { title: "Adding Comments", href: "/map_dashboard/comments" },
+  ]},
+
+  { section: "Profile", items: [
+    { title: "Profile", href: "/Profile/Profile" },
+  ]},
   { section: "Other", items: [
     { title: "Other", href: "/other" },
   ]},

@@ -1,0 +1,41 @@
+{
+    "content": [
+        {
+            "title": "Datasets - Raster",
+            "description": [
+                "This section is used to manage raster datasets. You can search, sort, refresh, or create a new raster dataset for use in AI models and spatial analysis."
+            ],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "Toolbar Controls",
+                    "descriptionType": "list",
+                    "description": [
+                        "In the Datasets section, use the Search Datasets box to quickly find an existing dataset.",
+                        "Click the Filter & Sort icon to sort datasets by Created Date, Name, or Updated Date and choose Newest First or Oldest First.",
+                        "Click the Refresh icon to reload the latest dataset list.",
+                        "Click the Take a Tour icon to view an overview of the Datasets page."                     
+                    ]
+                },
+                {
+                    "descriptionTitle": "Create New Raster Dataset",
+                    "descriptionType": "list",
+                    "description": [
+                        {
+                            "subdescriptionTitle":  "Steps to create new raster dataset:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Click the “New Dataset” button and select “Raster Data”.",
+                                "Enter the Dataset Name.",
+                                "Upload raster files using drag-and-drop or click to browse.",
+                                "Supported raster formats are .tiff, .tif and .geotiff.",
+                                "A maximum of 25 raster files can be uploaded in a single dataset.",
+                                "The Uploaded Files panel displays all selected files before upload.",
+                                "Click “Create & Upload” to create the dataset or “Cancel” to discard the operation."
+                            ]
+                        }                   
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "content" : [
+        {
+            "title": "Result Visualization",
+            "descriptionSections": [
+
+                {
+                    "descriptionTitle": "Customizing Layer Styles ",
+                    "descriptionType": "list",
+                    "description": [
+                        "To customize the style of any result layer, click on the Style icon next to the layer name. ",
+                        "In the style editor, choose a sub-category and click on its Fill or Stroke color box. ",
+                        "Select a color from the palette, adjust transparency using the slider, and click Apply, followed by Submit to save the changes. ",
+                        "Your map will now reflect the updated visual styling for easier interpretation. "
+                    ]
+                },
+                {
+                    "descriptionTitle": "Performing Grid Analysis ",
+                    "descriptionType": "list",
+                    "description": [
+                        "To divide a result layer or AOI into grids, click on the Grid icon beside the layer name. ",
+                        "Use the ‘+’ or ‘–’ buttons in the pop-up window to set the desired grid count (e.g., 6x6, 10x10). ",
+                        "Click Submit to generate the grid overlay on the map. ",
+                        "You can now click on individual grid tiles to view localized statistics and analytics — perfect for area-specific resource planning and task assignment."
+                    ]
+                },
+                {
+                    "descriptionTitle": " Hotspot Analysis  ",
+                    "descriptionType": "list",
+                    "description": [
+                        "To visualize data as a Hotspot map, select the Hotspot option from the layer menu. ",
+                        "The map will immediately display the hotspot visualization. ",
+                        "You can adjust the blur and radius sliders to fine-tune the visualization according to your preference. "
+                    ]
+                        
+                }
+
+            ]    
+        }
+    ]
+}

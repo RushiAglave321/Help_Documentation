@@ -1,0 +1,138 @@
+{
+  "content": [
+    {
+      "title": "Map Tools/Options",
+      "description": [
+        "This section provides access to map tools and additional options available on the interactive map interface."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "1. Map Tools",
+          "descriptionType": "list",
+          "description": [
+            "In the Projects section Navigate to the desired Project.",
+            "Click on the relevant Workspace ",
+            "You will now see the interactive map dashboard zoomed in to the set AOI.",
+            "Drag the mouse on the map to pan to required location ",
+            "From Map options on right side –  ",
+            {
+              "subdescriptionTitle": "Basemap",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Used to change the base map. Click the Basemap icon and select the desired basemap from the list."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Layer View",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Used to view and manage layers created in the project.",
+                "Click the Layer View icon to open the layers panel, where layers are organized by category.",
+                "Each layer can be shown or hidden using the eye icon.",
+                "Additional options such as Zoom to Layer, Layer Style, Toggle Grid, Delete, and Comment are available through the three-dot menu."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Full Screen",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Used to expand the map to full-screen view for better visualization."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Measurement",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Used to measure distance on the map. Select the unit (e.g., Feet) and draw on the map to calculate the length."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "2. More Option",
+          "descriptionType": "list",
+          "description": [
+            "The More Options menu provides additional actions related to the current map or workspace.",
+            "You can find this option on the top-right corner of the map interface (three-dot icon).",
+            "Clicking this icon opens a dropdown menu containing options such as Pull Vector and Analysis."
+          ]
+        },
+        {
+          "descriptionTitle": "Pull Vector",
+          "descriptionType": "list",
+          "description": [
+            "From More Options click on Pull Vector to add a new vector layer to the map from the database.",
+            "Select dataset and click on Pull data"
+          ]
+        },
+        {
+          "descriptionTitle": "Analytics Dashboard",
+          "descriptionType": "list",
+          "description": [
+            "The Analysis Dashboard provides a visual report of the analysis performed within a workspace.",
+            "The dashboard can be accessed from any workspace.",
+            "Click on the 'Analysis' option from the workspace toolbar to open the Analysis Dashboard."
+          ]
+        },
+        {
+          "descriptionTitle": "Analysis",
+          "descriptionType": "list",
+          "description": [
+            "The Analytics Dashboard provides all the controls required to generate and view analysis reports.",
+            "Click the Download icon to export the generated report.",
+            "Multiple reports can be displayed on the dashboard simultaneously.",
+            "Multiple displayed reports can be exported together using the Download option.",
+            "Click the Layer icon to open the Analytics panel.",
+            "The Analytics panel lists all available Models, Assessments, and Map Annotation Layers for the current workspace.",
+            "The selected layer can then be displayed on the dashboard using the available actions."
+          ]
+        },
+        {
+          "descriptionTitle": "Viewing Analysis Layers",
+          "descriptionType": "list",
+          "description": [
+            "Expand the required section (Models, Assessments, or Map Annotation Layers) from the Analytics panel.",
+            "Click the Eye icon beside a layer to display its analysis on the dashboard.",
+            "Click the Grid icon to enable Grid Analysis for the selected layer.",
+            "Enter the required cell size and click 'Create Grid'.",
+            "Click any grid cell to view analytics specific to that grid.",
+            "If Grid Analysis is not enabled, analytics are displayed for the entire layer."
+          ]
+        },
+        {
+          "descriptionTitle": "Analysis Report",
+          "descriptionType": "list",
+          "description": [
+            "The Analysis Report provides a visual and statistical summary of the selected analysis layer or grid.",
+            "The summary cards display information such as AOI, Total Storage, Training Images, and the analysis creation date.",
+            "The report includes a map preview, analytics visualization, summary cards, and an attribute table.",
+            "Analytics can be viewed as either a Pie Chart or a Line Chart.",
+            "The Attribute Table can display values by Area or Count.",
+            "Area values can be be viewed in Square Metres (sq. m), Hectares (ha), or Square Kilometres (sq. km).",
+            "Click the Download icon beside the Attribute Table to export the table data.",
+            {
+              "subdescriptionTitle": "Filter Attribute Table",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Use the Search box to locate a specific Grid Number.",
+                "Click 'Filter Column' to apply filters to the attribute table.",
+                "Select the required feature column.",
+                "Choose the comparison operator (Greater Than, Less Than, or Equals).",
+                "Enter the required value to filter the records.",
+                "Click 'Reset' to remove all applied filters."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "3. Notifications",
+          "descriptionType": "list",
+          "description": [
+            "The Notifications panel provides updates and alerts related to activities within the platform.",
+            "It is accessible from the top-right corner of the interface via the bell icon."
+          ]
+        }
+      ]
+    }
+  ]
+}

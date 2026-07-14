@@ -1,6 +1,6 @@
 import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
-import contentData from "@/public/webpageJsons/7_MapDashboard_MapTools.json";
+import contentData from "@/public/webpageJsons/View_Profile.json";
 
 const Page = () => {
 

@@ -1,0 +1,63 @@
+{
+    "content": [
+        {
+            "title": "Create/Delete Model",
+            "description": [
+                "Create, search, sort, refresh, or delete an existing model from the Models section."
+            ],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "Create New Model",
+                    "descriptionType": "paragraph",
+                    "description": [
+                        "To create a new feature extraction model, click on “New Model” in the Models section (from the Side Panel). Use the Search Models box to quickly find an existing model. Click the Filter & Sort icon to sort models by Created Date, Name, or Updated Date and choose Newest First or Oldest First. Click the Refresh icon to reload the latest model list. Click the Take a Tour icon to view an overview of the Models page."
+                    ]
+                },
+                {
+                    "descriptionTitle": "1. Model Details and Define Classes -",
+                    "descriptionType": "list",
+                    "description": [
+                        "Enter the Model Name.",
+                        "Add class names of the objects to be labelled for model training. After typing each class, press Enter to save it.",
+                        "Classes can be edited or deleted before proceeding.",
+                        "Click “Next” to continue."
+                    ]
+                },
+                {
+                    "descriptionTitle": "2. Upload Images -",
+                    "descriptionType": "list",
+                    "description": [
+                        "Upload images from your local system using drag and drop or click to upload.",
+                        "Alternatively, click “Select from Dataset” to use images from an existing raster dataset.",
+                        "Supported image formats are JPG, JPEG, PNG, GIF, BMP, WEBP, SVG and TIFF.",
+                        "The Summary panel displays the Total Uploaded and Total Selected images.",
+                        "Images can be selected individually or in bulk.",
+                        "Use “Delete” or “Delete All” to remove unwanted images before proceeding.",
+                        "Click “Update & Next” to continue to the Annotation step."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Note:",
+                    "descriptionType": "list",
+                    "description": [
+                        "All images uploaded must contain True-Color RGB bands only.",
+                        "Images must be of high resolution, ensuring that the target objects can be clearly and distinctly identified.",
+                        "The image will be processed as they are being uploaded. Notification will be generated once the processing is completed",
+                        "Uploaded imagery should be free from excessive noise, cloud cover, or visual obstructions that may affect analysis accuracy.",
+                        "The training dataset should originate from a geography similar to the area on which predictions will be applied, ensuring model reliability and contextual relevance.",
+                        "The spatial resolution of all training images should match the resolution of the images used for prediction to maintain consistency and performance."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Delete Model",
+                    "descriptionType": "list",
+                    "description": [
+                        "Locate the required model card in the Models section.",
+                        "Click the three-dot menu and select “Delete Model”.",
+                        "In the confirmation dialog, click “Delete” to permanently remove the model or “Cancel” to discard the action."
+                    ]
+                }
+            ]
+        }
+    ]
+}

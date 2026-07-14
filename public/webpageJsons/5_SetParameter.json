@@ -1,0 +1,65 @@
+{
+  "content": [
+    {
+      "title": "Set Parameter",      
+      "descriptionSections": [   
+        {
+          "descriptionTitle": "Set Parameter",
+          "descriptionType": "list",
+          "description": [
+            "a. Enter the number of Epochs-  ",
+            "The number of epochs determines how many times the entire dataset is passed forward and backward through the neural network during training. Based on the resolution of images and the number of images used for annotation, you can follow this table for entering a number: "
+          ],
+          "table": {
+            "columns": [
+              "# of Images ",
+              "Suggested Epoch Range "
+            ],
+            "rows": [
+              [
+                "50–500 ",
+                "30–80 "
+              ],
+              [
+                "200–1000",
+                "50–150  "
+              ],
+              [
+                "100–1000 ",
+                "100–300 "
+              ]
+            ]
+          }
+        },
+        {
+          "description": [
+            "b. Enter Batch Size - ",
+            "Batch size refers to the number of samples (images) the model processes before updating its internal parameters (weights) during training. For setting a batch size you can refer to the table below –  "
+          ],
+          "table": {
+            "columns": [
+              "Condition  ",
+              "Recommended Batch Size  "
+            ],
+            "rows": [
+              [
+                "High-res images (e.g. <10 cm) ",
+                "2-8"
+              ],
+              [
+                "Medium-res images (e.g. 1–10 m) ",
+                "8-32 "
+              ]
+            ]
+          }
+        },
+        {
+          "description": [
+            "c. Hyper Parameters –  ",
+            "Click on Train to start the model training. You can continue doing other tasks on the dashboard while your model gets trained. You can check the progress in the Models section and you will get a notification upon completion of the model training and when it is ready to be used.  "
+          ]
+        }
+      ]
+    }
+  ]
+}

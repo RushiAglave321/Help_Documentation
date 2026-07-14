@@ -1,0 +1,95 @@
+{
+    "content": [
+        {
+            "title": "Creating/Deleting a Workspace",
+            "description": [
+                "User can view, create, search, sort, refresh or delete an existing workspace.",
+                "Within a workspace, users have access to a range of tools to perform analytics on various data types, including raster and vector data, and to visualize this data on the map. All tools, analyses, and data are contained within and linked exclusively to that workspace.",
+                "Use the Search Workspace box to quickly find an existing workspace. Click the Sort By button to sort workspaces by Created Date, Name, or Updated Date. Choose Newest First or Oldest First as the sorting order. Click the Refresh icon to reload the latest workspace list. Click the Take a Tour icon to view an overview of the Workspace page."
+            ],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "Create New Workspace",
+                    "descriptionType": "paragraph",
+                    "description": [
+                        "Within your selected project, Click the <B>Add new Workspace</B> button to begin setup."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Step 1: Workspace Details",
+                    "descriptionType": "list",
+                    "description": [
+                        "Enter the Workspace Name and a short description.",
+                        "Choose any one domain from the existing list or type in a custom domain.",
+                        "Click “Next” to proceed, or “Cancel” to discard."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Step 2: Set Area of Interest (AOI)",
+                    "descriptionType": "paragraph",
+                    "description": [
+                        "You can define the AOI using one of three methods:",
+                        {
+                            "subdescriptionTitle": "i. Select Existing AOI:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Choose from previously created AOIs in the dropdown or search for existing AOI name."
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle": "ii. Upload AOI File:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Upload a KML, zipped SHP, or GeoJSON file from your local device.",
+                                "Rename the uploaded AOI if you want."
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle": "iii. Draw AOI Manually:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "First name the AOI in <B>“Name the New AOI”</B> field.",
+                                "Use the <B>Draw Tool</B> to mark your AOI present next to search bar.",
+                                "Use the <B>Edit Tool</B> to modify the vertices."
+                            ]
+                        },
+                        "Click <B>Next</B> to continue."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Step 3: Select Assessments",
+                    "descriptionType": "list",
+                    "description": [
+                        "Choose one or more pre-defined assessments applicable to your project.",
+                        "Click <B>Next</B> to continue."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Step 4: Model Selection",
+                    "descriptionType": "paragraph",
+                    "description": [
+                        "Choose from the available pre-trained models from the Private or Public List of model and click on Save."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Edit Workspace",
+                    "descriptionType": "list",
+                    "description": [
+                        "Locate the workspace card within the project.",
+                        "Click the three-dot menu and select <B>Edit</B>.",
+                        "Update the required details and save the changes."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Delete Workspace",
+                    "descriptionType": "list",
+                    "description": [
+                        "Locate the workspace card within the project.",
+                        "Click the three-dot menu and select <B>Delete</B>.",
+                        "In the confirmation dialog, click Delete to permanently remove the workspace, or Cancel to discard the action."
+                    ]
+                }
+            ]
+        }
+    ]
+}

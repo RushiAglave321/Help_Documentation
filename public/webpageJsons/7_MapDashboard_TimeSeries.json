@@ -1,0 +1,76 @@
+{
+  "content": [
+    {
+      "title": "Time Series",
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Time Series Tool",
+          "descriptionType": "Paragraph",
+          "description": [
+            "To generate and visualize temporal changes by combining multiple assessment or prediction layers for the same Area of Interest (AOI).",
+            "The tool consists of two sections:"
+          ]
+        },
+        {
+          "descriptionTitle": "My Time Series",
+          "descriptionType": "list",
+          "description": [
+            "Displays all previously created time series.",
+            "Each generated time series is automatically saved in this section.",
+            "Select any saved time series to view it.",
+            {
+              "subdescriptionTitle": "Analysis and Statistics",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "On the right-hand side, you will see the analysis and statistics of the timeseries data.",
+                "Whole AOI: If you have selected this option, you will see the statistics for the entire dataset.",
+                "Map Extent: If you have selected this option, you will see the statistics only for the current map extent. As you zoom in or out, the extent will change accordingly."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Timeseries Toolbar",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "This toolbar provides play controls to play, pause, or move forward/backward through the timeseries data.",
+                "You can also adjust the playback speed of the timeseries here.",
+                "The dates for all datasets in the timeseries are displayed on the timebar."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Create New Time Series",
+          "descriptionType": "list",
+          "description": [
+            "Click the Create New tab.",
+            "Enter a unique Series Name.",
+            "Choose the required Data Type (Prediction or Assessment).",
+            {
+              "subdescriptionTitle": "Prediction",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select Prediction as the Data Type.",
+                "Choose the required prediction layers generated for the same AOI across different time periods.",
+                "Use the search bar to find the required layers.",
+                "Select a minimum of two prediction layers to create a time series.",
+                "Click Create Series to generate the prediction time series."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Assessment",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select Assessment as the Data Type.",
+                "Choose the required Index Type (for example, NDVI).",
+                "Select the assessment layers for the same AOI across different time periods.",
+                "Use the search bar to find the required layers.",
+                "Select a minimum of two assessment layers to create a time series.",
+                "Click Create Series to generate the assessment time series."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

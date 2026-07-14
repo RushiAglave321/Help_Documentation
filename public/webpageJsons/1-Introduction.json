@@ -1,0 +1,61 @@
+{
+    "content" : [
+        {
+            "title" : "Introduction",
+            "description" : ["SpatioSynth is a no-code, GeoAI-powered platform developed to streamline marine debris damage assessment post-disaster. It allows rapid AI-based analysis of aerial imagery, grid-based insights, cost estimation, and interactive visualization tools for informed decision-making"],
+
+            "descriptionSections": [
+              {
+                "descriptionTitle": "Platform Overview – Section Guide",
+                "table": {
+                  "columns": [
+                    "Section",
+                    "Description"
+                  ],
+                  "rows": [
+                    [
+                      "Login / Sign Up",
+                      "Access your account using email and OTP. New users can register with their email ID. Once your account is verified by us you can access the SpatioSynth."
+                    ],
+                    [
+                      "Projects",
+                      "Create and view all projects. Each project can contain multiple workspaces. Click to explore related workspaces."
+                    ],
+                    [
+                      "Workspaces",
+                      "Create and view all workspaces within a project. Clicking opens the Map Dashboard."
+                    ],
+                    
+                    [
+                      "AOIs (Areas of Interest)",
+                      "Create and view AOIs. Edit or reuse them across different workspaces."
+                    ],
+                   
+                    [
+                      "Models",
+                      "Guided setup for creating custom object detection models by uploading training data, annotating images, and setting parameters. Also shows user-created models with their training or annotation status, and allows uploading additional images or editing annotations for further training."
+                    ],  
+                    [
+                      "Datasets",
+                      "Lists all uploaded raster and vector datasets. Add new datasets for use in workspaces or models."
+                    ],
+                    [
+                      "Map Annotations",
+                      "Create, view, and manage map annotations. Users can annotate raster and vector datasets with objects of interest using both manual and AI-assisted tools."
+                    ],
+                    
+                    [
+                      "Map Dashboard",
+                      "The main interface for running analytics, applying AI models, visualizing results, and collaborating."
+                    ],
+                    [
+                      "Analytics Dashboard ",
+                      "View charts, graphs, and attribute tables for deeper spatial analysis and data insights."
+                    ]
+                  ]
+                }
+              }
+            ]
+        }
+    ]
+}

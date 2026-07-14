@@ -3,13 +3,13 @@
 import Feedback from "./Feedback";
 
 interface DescriptionSection {
-  descriptionTitle: string;
+  descriptionTitle?: string;
 }
 
 interface ContentItem {
-  title: string;
+  title?: string;
   subtitle?: string;
-  description: string[];
+  description?: string[];
   descriptionSections: DescriptionSection[];
 }
 

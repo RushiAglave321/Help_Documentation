@@ -1,0 +1,80 @@
+{
+  "content": [
+    {
+      "title": "Project",
+      "description": [
+        "The Projects section contains multiple workspaces. Within this section, users can create, search, sort, refresh, or delete projects."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "To Create a New Project",
+          "descriptionType": "list",
+          "description": [
+            "Navigate to the Projects section and click the <b>New Project</b> button.",
+            {
+              "subdescriptionTitle": "In the form:",
+              "subdescriptionType": "list",
+              "subdescription": [
+                  "Enter the Project Name and Description.",
+                  "Add relevant Tags by typing and pressing Enter ro Comma after each tag.",
+                  "Click <b>New Project</b> to save, or <b>Cancel</b> to discard.",
+                  "Once created, click the project card to access or manage its associated workspaces."
+              ]
+            }
+      ]
+        },
+        {
+          "descriptionTitle": "Search Projects",
+          "descriptionType": "list",
+          "description": [
+            "Use the Search Projects box to quickly find an existing project by its name.",
+            "Matching projects will be displayed as you type."
+          ]
+        },
+        {
+          "descriptionTitle": "Sort and Filter Projects",
+          "descriptionType": "list",
+          "description": [
+            "Click the Filter & Sort icon.",
+            {
+              "subdescriptionTitle": "Choose a Sort By option:",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Default (Created Date)",
+                "Name",
+                "Updated Date"
+              ]
+            },
+           
+            {
+              "subdescriptionTitle":  "Select the sorting order:",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Newest First",
+                "Oldest First",
+                "Click <B>“Apply”</B> to save the changes or <B>“Clear”</B> to reset the selected options."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Additional Options",
+          "descriptionType": "list",
+          "description": [
+            "Click the Refresh icon to reload the latest list of projects.",
+            "Click the Take a Tour icon to view an overview of the Projects page and its features."
+          ]
+        },
+        {
+          "descriptionTitle": "To Delete an Existing Project",
+          "descriptionType": "list",
+          "description": [
+            "In the Projects section, locate the desired project card.",
+            "Click the three-dot menu on the project card and select Delete Project.",
+            "In the confirmation dialog, click Delete to permanently remove the project, or Cancel to discard the action."
+          ]
+        }
+      ]
+    }
+  ]
+}

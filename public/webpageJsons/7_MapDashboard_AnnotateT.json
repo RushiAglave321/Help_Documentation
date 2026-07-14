@@ -1,0 +1,191 @@
+{
+    "content" : [
+        {
+            "title": "Annotate Tools", 
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "Annotate  ",
+                    "descriptionType": "list",
+                    "description": [
+                        "The Annotate Tool, available under the sidebar panel, allows users to add or correct map features and layers using both manual drawing tools and AI-assisted segmentation. ",
+                        "To begin, click on the Annotate option in the sidebar panel. ",
+                        "The Annotate tool follows a three-step workflow to create and manage annotation layers: "
+                    ]
+                },
+                {
+                    "descriptionTitle": "1. Layer Configuration",
+                    "descriptionType": "list",
+                    "description": [
+                        "The Layer Configuration step allows you to create a new annotation layer or continue working on an existing one.",
+                        "<B>Create New:</B> Enter a unique Annotation Layer Name and click 'Continue to Source' to proceed to Source Configuration.",
+                        "<B>Select Existing:</B> Continue working with an existing annotation layer. Two data sources are available:",
+                        {
+                            "subdescriptionTitle":  "a. Prediction Data:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Select the prediction dataset from the <B>'Select Prediction Result'</B> dropdown.",
+                                "Select the prediction layer.",
+                                "Click 'Continue to Source' to load the prediction layer."
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle":  "b. Vector Data:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Select the vector dataset from the 'Select Dataset' dropdown.",
+                                "Select the required dataset layer.",
+                                "Select the Target Class Field (attribute column).",
+                                "The available classes from the selected attribute field will be used while creating the annotation layer.",
+                                "Click 'Continue to Source' to proceed."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "descriptionTitle": "2. Source Configuration",
+                    "descriptionType": "list",
+                    "description": [
+                        "Select one of the below imagery source that will be used for annotation.",
+                        {
+                            "subdescriptionTitle":  "Basemap:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Choose one of the available basemaps such as Hybrid, Streets, Terrain or OSM.",
+                                "Click 'Confirm Source' to continue."
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle":  "Custom Raster:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Select a Raster Dataset.",
+                                "Choose the required raster layer either from the dropdown or directly from the map.",
+                                "Click 'Confirm Source' to continue."]
+                        }
+                    ]
+                },
+                {
+                    "descriptionTitle": "3. Define Classes",
+                    "descriptionType": "list",
+                    "description": [
+                        "Create the classes that will be used during annotation.",
+                        "Enter the Class Name.",
+                        
+                        {
+                            "subdescriptionTitle":  "Select the Geometry Type for the class:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                 "Polygon",
+                                 "Polyline",
+                                 "Point"
+                            ]
+                        },
+                        "Choose color for the class from the color dot from the <B>New Class Name</B> dropdown.",
+                        "Click 'Add' or press Enter to add the class.",
+                        "Repeat the process to create multiple classes.",
+                        "All created classes are displayed under Active Classes.",
+                        "Each class displays its assigned geometry type and can be removed using the Delete icon.",
+                        "The Project, Workspace, Layer and Source information is displayed at the bottom for reference.",
+                        "Click 'Back' to return to the previous step and modify the configuration if required.",
+                        "Click 'Save All' to create the annotation layer."
+                    ]
+                },
+                {
+                    "descriptionTitle": "4. Annotation Workspace",
+                    "descriptionType": "list",
+                    "description": [
+                        "After saving the annotation layer, the Annotation Workspace opens.",
+                        "The left panel displays the Annotation Layer Name, Workspace Name and total number of classes.",
+                        "All created classes are listed under their respective geometry type.",
+                        {
+                            "subdescriptionTitle":  "Each geometry includes:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Count of the classes"
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle":  "Each class includes:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                               
+                                "Class colour",
+                                "Active status",
+                                "Annotation count",
+                                "Visibility toggle",
+                                "Delete option"
+                            ]
+                        },
+                        "Use the '+' icon to add new classes.",
+                        "Use the Visibility icon beside the class to show or hide geometries of that class.",
+                        "The selected class becomes active for drawing.",
+                        "The active drawing class is also displayed at the bottom of the panel.",
+                        "The 'Clear' button clears the currently selected class and its geometry.",
+                        "GeoAI Copilot can be enabled from the bottom of the panel to perform AI-assisted annotation."
+                    ]
+                },
+                {
+                    "descriptionTitle": "5. Geometry Tools",
+                    "descriptionType": "list",
+                    "description": [
+                        "The Geometry toolbar provides annotation editing tools.",
+                        "<B>Draw Mode</B> - Click on the map to draw new feature.",
+                        "<B>Select / Edit mode</B> — click existing features to select, modify vertices, split, merge or delete",
+                        "<B>Recenter to Base Layer</B> - Returns the map to the default layer extent.",
+                        "<B>Split Tool</B> - Split a polygon into multiple features.",
+                        "<B>Merge Tool</B> - Merge selected polygons into one feature.",
+                        "<B>Undo</B> - Revert the last action.",
+                        "<B>Redo</B> - Restore the last undone action.",
+                        "<B>Save</B> - Save all annotation edits.",
+                        "<B>Delete</B> - Delete the selected annotation.",
+                        "<B>Cancel</B> - Exit the current editing operation."
+                    ]
+                },
+                {
+                    "descriptionTitle": "6. Map Controls",
+                    "descriptionType": "list",
+                    "description": [
+                        "Additional map controls are available on the right side of the workspace.",
+                        "Comments - View and manage annotation comments.",
+                        "Gallery - Browse all drawn features of all classes for the annotation layer.",
+                        "Basemap - Switch between available basemaps.",
+                        "Keyboard Shortcuts - View supported keyboard shortcuts for annotation."
+                    ]
+                },
+                {
+                    "descriptionTitle": "7. GeoAI Copilot",
+                    "descriptionType": "list",
+                    "description": [
+                        "GeoAI Copilot is an AI-powered annotation assistant that accelerates manual annotation.",
+                        "Enable the GeoAI Copilot toggle to activate AI-assisted annotation tools.",
+                        "Once active, click the arrow button to open the AI tools popover.",
+                        {
+                            "subdescriptionTitle":  "i. Magic Click:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "select a class, then click anywhere on the map as per respective class the AI segments the object under your cursor and saves the polygon automatically."
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle":  "ii. Visual search:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Select the grid.",
+                                "Select an option from the toolbar below:",
+                                "<B>Draw:</B> Draw reference feature on the map.",
+                                "<B>Select:</B> Select existing feature for reference.",
+                                "<B>Magic Click:</B> AI will draw reference feature.",
+                                "Run the visual Search",
+                                "The AI finds all similar objects in the area."
+                            ]
+                        },
+                        "The copilot automatically detects and segments objects visible in the imagery.",
+                        "Generated segments can be reviewed before assigning them to the required annotation class.",
+                        "Users can accept, edit, merge, split or delete AI-generated polygons before saving.",
+                        "GeoAI Copilot reduces manual effort while maintaining complete user control over the final annotations."
+                    ]
+                }
+            ]    
+        }
+    ]
+}

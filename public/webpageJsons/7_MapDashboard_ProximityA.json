@@ -1,0 +1,155 @@
+{
+  "content": [
+    {
+      "title": "Proximity Analysis",
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Proximity Analysis",
+          "descriptionType": "list",
+          "description": [
+            "It helps identify and analyze features located within a specified distance from a selected point, line, polygon, or existing layer.",
+            "Open the Proximity Analysis tool from the Analytics Tools panel.",
+            "Select the Analysis Method:",
+            {
+              "subdescriptionTitle": "Within",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Identifies features completely within the specified distance."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Intersect",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Identifies features that lie within or intersect the specified distance."
+              ]
+            },
+            "Enter the required Distance and select the appropriate Unit.",
+            "Select the Target Layer Type to continue with the required workflow."
+          ]
+        },
+        {
+          "descriptionTitle": "Target Layer Type",
+          "descriptionType": "list",
+          "description": [
+            "Select the required Target Layer Type to perform proximity analysis.",
+            {
+              "subdescriptionTitle": "1. Model",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select 'Model' under Target Layer Type.",
+                "Choose the required layer from the Select Layer dropdown.",
+                "Under Select Class, choose either a specific model class or All Classes.",
+                "Under Proximity Source, select one of the following:",
+                "Current Location",
+                "Select Location",
+                "Select by Location"
+              ]
+            },
+            {
+              "subdescriptionTitle": "i. Current Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click Allow on the notification popup to access your location."
+              ]
+            },
+            {
+              "subdescriptionTitle": "ii. Select Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Under Selection Type, select Point, Line, or Polygon.",
+                "Draw the selected geometry on the map as indicated by the on-screen hint."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iii. Select by Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select feature from the map."
+              ]
+            },
+            {
+              "subdescriptionTitle": "2. Annotate",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select 'Annotate' under Target Layer Type.",
+                "Choose the required annotation layer from the Select Layer dropdown.",
+                "Under Select Class, choose either a specific annotation class or All Classes.",
+                "Under Proximity Source, select one of the following:",
+                "Current Location",
+                "Select Location",
+                "Select by Feature"
+              ]
+            },
+            {
+              "subdescriptionTitle": "i. Current Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click Allow on the notification popup to access your location."
+              ]
+            },
+            {
+              "subdescriptionTitle": "ii. Select Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Under Selection Type, select Point, Line, or Polygon.",
+                "Draw the selected geometry on the map as indicated by the on-screen hint."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iii. Select by Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select feature from the map."
+              ]
+            },
+            {
+              "subdescriptionTitle": "3. Vector",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select 'Vector' under Target Layer Type.",
+                "Choose the required vector layer from the Select Layer dropdown.",
+                "Select the Attribute Column from the vector layer.",
+                "Under Select Class, choose the required attribute value from the selected column.",
+                "Under Proximity Source, select one of the following:",
+                "Current Location",
+                "Select Location",
+                "Select by Feature"
+              ]
+            },
+            {
+              "subdescriptionTitle": "i. Current Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click Allow on the notification popup to access your location."
+              ]
+            },
+            {
+              "subdescriptionTitle": "ii. Select Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Under Selection Type, select Point, Line, or Polygon.",
+                "Draw the selected geometry on the map as indicated by the on-screen hint."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iii. Select by Location",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select feature from the map."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Run or Reset Analysis",
+          "descriptionType": "list",
+          "description": [
+            "Click 'Run Analysis' to generate the proximity analysis results.",
+            "Click 'Clear' to reset all selected parameters and start a new proximity analysis."
+          ]
+        }
+      ]
+    }
+  ]
+}

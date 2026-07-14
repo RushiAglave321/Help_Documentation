@@ -1,6 +1,6 @@
 import DescriptiveeContent from "@/componants/DescriptiveeContent";
 import DocsPage from "@/componants/DocsPage";
-import contentData from "@/public/Tutorial_Jsons/Intro_sections.json";
+import contentData from "@/public/webpageJsons/1-Introduction.json";
 
 const Page = () => {
 

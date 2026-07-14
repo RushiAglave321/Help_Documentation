@@ -1,0 +1,26 @@
+{
+    "content": [
+        {
+            "title": "Edit",
+            "description": [
+                "Existing AOIs can be modified from this section."
+            ],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "To edit an AOI:",
+                    "descriptionType": "list",
+                    "description": [
+                        "Select any existing AOI to open the AOI view.",
+                        "Use the Search for a Place box to quickly navigate to the required location on the map.",
+                        "Click the Basemap icon to switch between the available basemaps.",
+                        "Use the Draw/Edit tool to modify the AOI boundary by dragging the vertices or adjusting the boundary as required.",
+                        "Use the Undo and Redo buttons to revert or reapply the recent changes.",
+                        "Click the Delete button to remove the selected AOI boundary and redraw it if required.",
+                        "Edit the AOI Name if required.",
+                        "Then click on “Save Edits” to apply the changes or “Cancel” to discard them."
+                    ]
+                }
+            ]
+        }
+    ]
+}

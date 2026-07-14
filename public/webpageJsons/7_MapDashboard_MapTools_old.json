@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "title": "Map Tools/Options",
+      "description": [
+        "This section provides access to map tools and additional options available on the interactive map interface."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "1. Map Tools",
+          "descriptionType": "list",
+          "description": [
+            "In the Projects section Navigate to the desired Project.",
+            "Click on the relevant Workspace ",
+            "You will now see the interactive map dashboard zoomed in to the set AOI.",
+            "Drag the mouse on the map to pan to required location ",
+            "From Map options on right side –  "
+          ]
+        },
+        {
+          "descriptionTitle": "Basemap",
+          "descriptionType": "list",
+          "description": [
+            "Used to change the base map. Click the Basemap icon and select the desired basemap from the list."
+          ]
+        },
+        {
+          "descriptionTitle": "Layer View",
+          "descriptionType": "list",
+          "description": [
+            "Used to view and manage layers created in the project.",
+            "Click the Layer View icon to open the layers panel, where layers are organized by category.",
+            "Each layer can be shown or hidden using the eye icon.",
+            "Additional options such as Zoom to Layer, Layer Style, Toggle Grid, Delete, and Comment are available through the three-dot menu."
+          ]
+        },
+        {
+          "descriptionTitle": "Full Screen",
+          "descriptionType": "list",
+          "description": [
+            "Used to expand the map to full-screen view for better visualization."
+          ]
+        },
+        {
+          "descriptionTitle": "Measurement",
+          "descriptionType": "list",
+          "description": [
+            "Used to measure distance on the map. Select the unit (e.g., Feet) and draw on the map to calculate the length."
+          ]
+        },
+        {
+          "descriptionTitle": "2. More Option",
+          "descriptionType": "list",
+          "description": [
+            "The More Options menu provides additional actions related to the current map or workspace.",
+            "You can find this option on the top-right corner of the map interface (three-dot icon).",
+            "Clicking this icon opens a dropdown menu containing options such as Pull Vector and Analysis."
+          ]
+        },
+        {
+          "descriptionTitle": "Pull Vector",
+          "descriptionType": "list",
+          "description": [
+            "From More Options click on Pull Vector to add a new vector layer to the map from the database.",
+            "Select dataset and click on Pull data"
+          ]
+        },
+        {
+          "descriptionTitle": "Analysis Dashboard",
+          "descriptionType": "list",
+          "description": [
+            "Access Dashboard: Go to More Options and open the Analysis Dashboard. ",
+            "Select Layer: Toggle on the desired layer from the Layer List at the top right. The corresponding map, statistics, and attribute table will appear on the dashboard.",
+            "Add Grids (Optional): Click the Grid Tool next to the layer name to overlay grids on the map. The attribute table will automatically display values grouped by grid number.",
+            "Export Results: Click Download File at the top right to export the dashboard as a PDF."
+          ]
+        },
+        {
+          "descriptionTitle": "3. Notifications",
+          "descriptionType": "list",
+          "description": [
+            "The Notifications panel provides updates and alerts related to activities within the platform.",
+            "It is accessible from the top-right corner of the interface via the bell icon."
+          ]
+        }
+      ]
+    }
+  ]
+}

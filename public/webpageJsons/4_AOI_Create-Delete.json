@@ -1,0 +1,62 @@
+{
+    "content": [
+        {
+            "title": "AOIs",
+            "description": [
+                "View, create, search, sort, refresh or delete an existing AOI.",
+                "Use the Search AOIs box to quickly find an existing AOI. Click the Filter & Sort icon to sort AOIs by Created Date, Name, or Updated Date and choose Newest First or Oldest First. Click the Refresh icon to reload the latest AOI list. Click the Take a Tour icon to view an overview of the AOI page."
+            ],
+            "descriptionSections": [
+                {
+                    "descriptionTitle": "Create a new AOI:",
+                    "descriptionType": "list",
+                    "description": [
+                        "1. Navigate to the AOI section and click the <b>New AOI</b> button.",
+                        "2. You can define the AOI using one of two methods:",
+                        {
+                            "subdescriptionTitle": "i. Upload Files:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Upload an existing AOI from your local device in .shp, .kml, .geojson, or .zip format.",
+                                "Click on <B>Edit</B> button you wants to edit the geometry."
+                            ]
+                        },
+                        {
+                            "subdescriptionTitle": "ii. Draw on Map:",
+                            "subdescriptionType": "list",
+                            "subdescription": [
+                                "Enter the AOI Name in the provided field.",
+                                "Click on <b>Draw on Map</b> button to delineate the required area.",
+                                "Delineate the required area on the map.",
+                                "Click on <B>Edit</B> button you wants to edit the geometry."
+                        ]},
+                        "Click <B>Create</B> to generate the AOI or <B>Cancel</B> to discard the operation."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Edit an AOI:",
+                    "descriptionType": "list",
+                    "description": [
+                        "Select any existing AOI to open the AOI view.",
+                        "Use the Search for a Place box to quickly navigate to the required location on the map.",
+                        "Click the Basemap icon to switch between the available basemaps.",
+                        "Use the Draw/Edit tool to modify the AOI boundary by dragging the vertices or adjusting the boundary as required.",
+                        "Use the Undo and Redo buttons to revert or reapply the recent changes.",
+                        "Click the Delete button to remove the selected AOI boundary and redraw it if required.",
+                        "Edit the AOI Name if required.",
+                        "Then click on “Save Edits” to apply the changes or “Cancel” to discard them."
+                    ]
+                },
+                {
+                    "descriptionTitle": "Delete and existing AOI:",
+                    "descriptionType": "list",
+                    "description": [
+                        "In the AOI section",
+                        "Click the three-dot menu and select Delete AOI.",
+                        "In the confirmation dialog, click “Delete” to permanently remove the AOI or “Cancel” to discard the operation."
+                    ]
+                }
+            ]
+        }
+    ]
+}

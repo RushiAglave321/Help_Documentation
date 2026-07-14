@@ -1,0 +1,26 @@
+{
+  "content": [
+    {
+      "title": "Adding Comment",
+      "description": [
+        "This feature allows comments to be added and replies to be managed on the map."
+      ],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "To add a comment:",
+          "descriptionType": "list",
+          "description": [
+            "Click the Layer View panel on the right side.",
+            "In the layer dropdown, first display the layer on the map by clicking the eye icon.",
+            "Click the three-dot menu and select Comment.",
+            "The comment dialog box opens.",
+            "Right-click anywhere on the map to add a geo-located comment and press Enter.",
+            "View all comments using the Comment Icon in the top bar, that open list of comments in right side panel.",
+            "Click on any comment under the list to zoom into comment location on the map",
+            "Add reply by typing in the space under the respective comment box and press Enter."
+          ]
+        }
+      ]
+    }
+  ]
+}

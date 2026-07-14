@@ -1,0 +1,357 @@
+{
+  "content": [
+    {
+      "title": "View Profile",
+      "descriptionSections": [
+        {
+          "descriptionType": "list",
+          "description": [
+            "Click the Profile icon in the top-right corner. Select View Profile to open your profile page.",
+            "The profile page opens, where you can manage your account information and organization settings.",
+            "Click the camera icon on your profile picture to upload or change your profile photo.",
+            "Select Log Out to securely sign out of your SpatioSynth account."
+          ]
+        },
+        {
+          "descriptionTitle": "Account Settings",
+          "descriptionType": "list",
+          "description": [
+            "The Account Settings page allows you to view and manage your personal information.",
+            {
+              "subdescriptionTitle": "Full Name",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays your registered name.",
+                "You can update your Full Name and save the changes."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Phone Number",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Add or update your contact number."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Organization",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays the organization you belong to.",
+                "For members, the organization name is read-only and cannot be changed.",
+                "Only the Organization Admin can modify the organization name."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Email Address",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays your registered email address.",
+                "The email address cannot be modified by either Members or Admins."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Save Changes",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click Save Changes to apply updates made to your editable profile information."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Subscription",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Subscription page allows users to view their current subscription plan, renewal details, and available subscription actions. The options displayed depend on the user's current plan.",
+            {
+              "subdescriptionTitle": "Basic Plan",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays the current subscription plan and monthly pricing.",
+                "Shows the next renewal date.",
+                "Displays the current subscription status.",
+                "Click 'Upgrade to Pro' to open the Pro Plan details.",
+                "The upgrade dialog displays the Pro Plan pricing and available features.",
+                "Review the plan benefits and click 'Upgrade to Pro Now' to continue.",
+                "A confirmation dialog appears before payment.",
+                "Click 'Upgrade & Pay Now' to confirm the upgrade and proceed with payment.",
+                "Click 'Cancel' to return without upgrading.",
+                "Click 'Cancel Subscription' to cancel the subscription at the end of the current billing period."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Standard Plan",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays the current subscription plan and monthly pricing.",
+                "Shows the next renewal date.",
+                "Displays the current subscription status.",
+                "Click 'Upgrade to Pro' to open the Pro Plan details.",
+                "The upgrade dialog displays the Pro Plan pricing and available features.",
+                "Review the plan benefits and click 'Upgrade to Pro Now' to continue.",
+                "A confirmation dialog appears before payment.",
+                "Click 'Upgrade & Pay Now' to confirm the upgrade and proceed with payment.",
+                "Click 'Cancel' to return without upgrading.",
+                "Click 'Cancel Subscription' to cancel the subscription at the end of the current billing period."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Pro Plan",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays the current Pro subscription plan and monthly pricing.",
+                "Shows the next renewal date.",
+                "Displays the current subscription status.",
+                "Since this is the highest available plan, the Upgrade option is not displayed.",
+                "Click 'Cancel Subscription' to cancel the subscription at the end of the current billing period."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Cancel Subscription",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click 'Cancel Subscription' from any active subscription plan.",
+                "A confirmation dialog explains that the subscription will remain active until the end of the current billing period.",
+                "Click 'Keep Subscription' to continue using the current plan.",
+                "Click 'Cancel at Period End' to schedule cancellation after the current billing cycle."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Usage & Add-ons",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Usage & Add-ons page allows users to monitor AI Credit usage and Cloud Storage consumption, as well as purchase additional resources when required.",
+            {
+              "subdescriptionTitle": "AI Credits",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays the available AI Credit balance and current credit usage.",
+                "<b> View Details: </b>",
+                "Click 'View Details' to open the AI Credit usage history.",
+                "Filter the usage history by date range and category.",
+                "The Context column displays the name of the layer or resource associated with the selected category.",
+                "Switch between Table and Graph view to visualize the credit consumption.",
+                "<b> Top Up: </b>",
+                "Click 'Top Up' to purchase additional AI Credits.",
+                "Select the required AI Credit pack and click 'Purchase'.",
+                "Complete the payment process to add the selected credits to your account."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Cloud Storage",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays the available Cloud Storage capacity and current storage usage.",
+                "<b> Active:</b>",
+                "Click 'Active' to view all purchased storage expansions.",
+                "The Active Expansions dialog displays the additional storage purchased, its renewal date, and the total additional storage available.",
+                "To cancel an active storage expansion, contact the support team.",
+                "<b>Expand:</b>",
+                "Click 'Expand' to purchase additional Cloud Storage.",
+                "Select the required storage plan.",
+                "Click 'Subscribe' to continue.",
+                "Complete the payment process to activate the selected storage plan."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Security",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Security page allows users to change their account password using OTP verification.",
+            {
+              "subdescriptionTitle": "Password & Security",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "The registered email address is displayed and cannot be changed.",
+                "Click 'Send OTP to Change Password' to receive an OTP on the registered email.",
+                "Verify the OTP and set a new password.",
+                "Submit the details to update the password successfully."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "My Team",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The My Team page is available only to organization administrators. It allows admins to invite, view, manage, and update team members within the organization.",
+            {
+              "subdescriptionTitle": "View Team Members",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays all members in the organization along with their Name, Email Address, Role, Status, and Created Date.",
+                "Use the Status filter to view members based on their account status (All, Active, Inactive, or Pending).",
+                "Use the Search bar to quickly find a member by name or email.",
+                "Use the pagination controls to navigate through the list of team members."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Invite Member",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click 'Invite Member' to add a new user to the organization.",
+                "Enter the member's First Name, Last Name, and Email Address.",
+                "Select an appropriate role from the available roles.",
+                "Click 'Send Invite' to send the invitation email to the member."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Manage Team Members",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click the options (⋮) menu beside a member to manage their account.",
+                "Select 'Change Role' to assign a different role to the member. Choose the required role and click 'Save'.",
+                "Select 'Change Status' to activate or deactivate the member. Choose the required status and click 'Save'.",
+                "Select 'Delete Member' to permanently remove the member from the organization."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Role Management",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Role Management page allows organization administrators to create custom roles, assign permissions, and manage existing roles within the organization.",
+            {
+              "subdescriptionTitle": "View Roles",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Displays all available roles along with their assigned privileges, total users, creation date, and description.",
+                "Use the Search bar to quickly find a role by its name.",
+                "Click the Privileges (Eye) icon to view all permissions assigned to a role."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Manage Roles",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click the options (⋮) menu beside a role and select 'Change Permissions'.",
+                "Update the role name, description, or assigned permissions as required.",
+                "Use 'Select All' to enable all actions for a module or modify individual permissions by clicking on 'view' and then the type of permssion want to assign(Create, Edit, Delete).",
+                "The Selected Permissions panel updates automatically based on the selected actions.",
+                "Click 'Reset Permissions' to clear all selected permissions.",
+                "Click 'Save Edits' to apply the changes or 'Cancel to discard'."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Create a New Role",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click 'Create a new role' to define a custom role.",
+                "Enter the Role Name and Description.",
+                "Select the required permissions for each module by clicking on 'view' and then the type of permssion want to assign(Create, Edit, Delete)",
+                "Click 'Select All' within a module to automatically enable all available actions for that module.",
+                "The Selected Permissions panel displays all permissions assigned to the role.",
+                "Click 'Reset Permissions' to clear all selected permissions.",
+                "Click 'Create Role' to save the new role. or 'Cancel' to discard."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Shared Resources",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Shared Resources page allows you to view and manage resources you have shared with other users, as well as resources shared with you. Resources can be filtered by type and request status for easier management.",
+            {
+              "subdescriptionTitle": "Shared By Me",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select the 'Shared By Me' tab to view all resources you have shared with other users.",
+                "Use the 'All Types' filter to display specific resource types such as Dataset, Project, AOI, Model, or Workspace.",
+                "Use the 'All Status' filter to filter resources by their sharing status (Pending, Accepted, or Rejected).",
+                "The resource list displays the Resource Type, Status, Resource Name, Created Date, and Details."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Shared With Me",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Select the 'Shared With Me' tab to view resources shared with your account.",
+                "Use the 'All Types' filter to display specific resource types.",
+                "Use the 'All Status' filter to filter resources by their sharing status (Pending, Accepted, or Rejected).",
+                "The resource list displays the Resource Type, Status, Resource Name, Created Date, and Details.",
+                "Click 'View Details' to open the Resource Details window.",
+                "The Resource Details window displays the resource name, type, status, creation date, owner information, and sharing details.",
+                "Click 'Accept' to accept the shared resource and gain access.",
+                "Click 'Reject' to decline the sharing request.",
+                "Click 'Ignore' to close the dialog without accepting or rejecting the request."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Queries",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Queries section allows users to create, view, and manage support queries.",
+            {
+              "subdescriptionTitle": "My Queries",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "The My Queries page displays all queries raised by your account.",
+                "Use the 'Status' filter to view queries based on their current status.",
+                "Click the Refresh icon to reload the latest query status.",
+                "The query list displays the Title, Status, Reply, Date, and available Actions.",
+                "Click the Delete icon to permanently remove a query.",
+                "Click on a query to open the Query Details window and view its current status, attachments, and administrator reply."
+              ]
+            },
+            {
+              "subdescriptionTitle": "New Query",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click 'New Query' to create a support request.",
+                "Enter a query title and description.",
+                "Optionally attach up to three images (maximum 5 MB each) in JPEG, PNG, WebP, or GIF format.",
+                "Click 'Submit Query' to send the request to the administrator."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Query Details",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click on a query from the list to view its details.",
+                "The Query Details window displays the query title, description, attachments, current status (__________), date, and the administrator's reply, if available.",
+                "Click 'Close' to return to the Queries page."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "Feedback",
+          "descriptionType": "Paragraph",
+          "description": [
+            "The Feedback section allows users to submit feedback about their experience with the platform.",
+            {
+              "subdescriptionTitle": "My Feedback",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "The My Feedback page displays all feedback submitted by your account.",
+                "Click the Refresh icon to reload the latest feedback.",
+                "The feedback list displays the Rating, selected Features, Comments, and Date.",
+                "Click 'Add Feedback' to submit new feedback."
+              ]
+            },
+            {
+              "subdescriptionTitle": "Add Feedback",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Click 'Add Feedback' to open the feedback submission form.",
+                "Provide an Overall Rating for your experience with the platform.",
+                "Optionally select one or more relevant features, such as Prediction, Dataset Upload, Workspace, Map Annotation, Models, Collaboration, Reports, or General.",
+                "Enter your comments describing your experience, suggestions, or issues encountered.",
+                "Click 'Submit Feedback' to submit your feedback.",
+                "Click 'Cancel' to close the form without submitting the feedback."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

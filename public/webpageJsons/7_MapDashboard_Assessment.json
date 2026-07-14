@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "title": "Assessment",
+      "description":["This section allows users to create specified indices on selected satellite collections and view the results along with their statistics."],
+      "descriptionSections": [
+        {
+          "descriptionTitle": "Running Assessments",
+          "descriptionType": "list",
+          "description": [
+            "Open the Assessments tool from the left toolbar.",
+            "Select the required satellite image collection from the 'Select Collection' dropdown.",
+            "Choose the required index from the 'Select Indices' dropdown (e.g., NDVI, NDWI, etc.)",
+            "Enter the desired Cloud Cover (%) value between 1 and 100.",
+            "Select the required Month and Year.",
+            "Choose the available imagery date from the 'Select Date' field.",
+            "Click 'Run Assessments' to generate the selected indices.",
+            "Once processing is complete, the generated assessment layer will be displayed on the map.",
+            "The assessment result will also be available under the 'Assessments' section in the Layers panel, where it can be viewed or hidden as required."
+          ]
+        }
+      ]
+    }
+  ]
+}

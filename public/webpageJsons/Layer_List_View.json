@@ -1,0 +1,179 @@
+{
+  "content": [
+    {
+      "title": "Layer List View",
+      "descriptionSections": [
+        {
+          "descriptionTitle": "1. Models",
+          "descriptionType": "list",
+          "description": [
+            "Displays all result layers generated from the Run AI Model tool.",
+            "Use the Eye icon to show or hide a layer on the map.",
+            "When a layer is displayed, the Analytics panel opens and shows a summary of the selected layer.",
+            "The Analytics panel allows you to view statistics by Area or Count.",
+            "Click the expand arrow beside a layer to view the prediction layers.",
+            "Click the three-dot menu to access additional layer options.",
+            {
+              "subdescriptionTitle": "i. Zoom to Layer",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Quickly navigate to the selected layer on the map."
+              ]
+            },
+            {
+              "subdescriptionTitle": "ii. Style",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To customize the appearance of the selected layer.",
+                "You can modify the fill color, stroke color, stroke width, and stroke opacity.",
+                "Preview the changes and click Save Style to apply them."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iii. Toggle Grid",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To divide the selected layer into equal-sized grid cells.",
+                "Set the required cell size using the <B>'+'</B> or <B>'-'</B> buttons and click Create Grid to generate the grid overlay."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iv. Hotspot",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To visualize areas with higher feature concentration.",
+                "Adjust the Blur and Radius sliders to refine the hotspot visualization for your analysis."
+              ]
+            },
+            {
+              "subdescriptionTitle": "v. Export Data",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Export the selected layer for external use."
+              ]
+            },
+            {
+              "subdescriptionTitle": "vi. Delete",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To permanently remove the selected layer from the current project."
+              ]
+            },
+            {
+              "subdescriptionTitle": "vii. Comment",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Right-click anywhere on the map to add a geo-located comment and press Enter.",
+                "View all comments using the Comment in this section.",
+                "Click on any comment under the list to zoom into comment location on the map",
+                "Add reply by typing in the space under the respective comment box and press Enter."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "2. Assessments",
+          "descriptionType": "list",
+          "description": [
+            "Displays all assessment layers generated from the Assessment tool.",
+            "Use the Eye icon to show or hide the assessment layer on the map.",
+            "When an assessment layer is displayed, the Analytics panel opens and shows statistics for the selected assessment.",
+            "The Analytics panel allows you to view the assessment summary and statistics.",
+            "Click the three-dot menu to access additional layer options.",
+            {
+              "subdescriptionTitle": "i. Zoom to Layer",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Automatically adjusts the map view to the selected layer, allowing you to quickly locate and examine it."
+              ]
+            },
+            {
+              "subdescriptionTitle": "ii. Layer Style",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To customize the appearance of the assessment layer.",
+                "Select the preferred classification method, define the number of classes, preview the changes, and click Save Style to apply them."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iii. Toggle Grid",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To divide the assessment layer into equal-sized grid cells.",
+                "Adjust the cell size using the <B>'+'</B> or <B>'-'</B> buttons and click Create Grid to generate the grid overlay."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iv. Delete",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To permanently remove the selected layer from the current project."
+              ]
+            },
+            {
+              "subdescriptionTitle": "v. Comment",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Right-click anywhere on the map to add a geo-located comment and press Enter.",
+                "View all comments using the Comment in this section.",
+                "Click on any comment under the list to zoom into comment location on the map",
+                "Add reply by typing in the space under the respective comment box and press Enter."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "3. Vector Data",
+          "descriptionType": "list",
+          "description": [
+            "Displays all vector layers added using the Pull Vector tool.",
+            "Use the Eye icon to show or hide the vector layer on the map.",
+            "Click the expand arrow beside a layer to view the available vector layers.",
+            "Click the three-dot menu to access additional layer options.",
+            {
+              "subdescriptionTitle": "i. Zoom to Layer",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Automatically adjusts the map view to the selected layer, allowing you to quickly locate and examine it."
+              ]
+            },
+            {
+              "subdescriptionTitle": "ii. Style Layer",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To customize the appearance of the selected vector layer.",
+                "You can modify the fill colour, fill opacity, border colour, border width, and border opacity.",
+                "Preview the changes and click Save Style to apply them."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iii. Delete",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "To permanently remove the selected layer from the current project."
+              ]
+            },
+            {
+              "subdescriptionTitle": "iv. Comment",
+              "subdescriptionType": "list",
+              "subdescription": [
+                "Right-click anywhere on the map to add a geo-located comment and press Enter.",
+                "View all comments using the Comment in this section.",
+                "Click on any comment under the list to zoom into comment location on the map",
+                "Add reply by typing in the space under the respective comment box and press Enter."
+              ]
+            }
+          ]
+        },
+        {
+          "descriptionTitle": "4. Annotation Layers",
+          "descriptionType": "list",
+          "description": [
+            "This section displays all annotation layers created using the Annotate tool.",
+            "Use the Eye icon to show or hide an annotation layer on the map."
+          ]
+        }
+      ]
+    }
+  ]
+}

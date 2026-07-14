@@ -1,0 +1,130 @@
+{
+  "content": [
+    {
+      "title": "Model Creation",
+      "descriptionSections": [
+        {
+          "descriptionTitle": "3. Annotation",
+          "descriptionType": "paragraph",
+          "description": [
+            "Annotation is the process of labelling data (such as images or maps) to train a model to identify and predict specific features accurately."
+          ]
+        },
+        {
+          "descriptionType": "list",
+          "description": [
+            "A. Once the data upload is complete, uploaded images will appear in the bottom panel.",
+            "Images can be searched using the Search Image box, filtered, navigated using the page controls or Jump To option, and deleted individually whenever required.",
+            "Click on any image to begin annotation.",
+            "Additional images can be added anytime by clicking “Add More Images”."
+          ]
+        },
+        {
+          "descriptionType": "list",
+          "description": [
+            "C. Classes and Master Images Panel:",
+            "i. The Classes panel displays all available annotation classes.",
+            "ii. Click the '+' button to add a new class.",
+            "iii. View the number of annotations created for each class.",
+            "iv. Toggle the visibility of annotations for a class using the Eye icon.",
+            "v. Change the annotation colour by clicking the colour box.",
+            "vi. Delete a class using the Delete icon.",
+            "vii. The Master Images panel displays all images marked as Master Images along with their annotation count.",
+            "viii. Click “Save Edits” to save the current annotation progress.",
+            "ix. The Last Saved timestamp indicates when the annotations were last saved.",
+            "x. Annotation Assist becomes available after the minimum required Master Images have been created."
+          ]
+        },
+
+        {
+          "descriptionType": "list",
+          "description": [
+            "D. Starting Annotation - Click on any uploaded image from the bottom panel to begin annotation."
+          ]
+        },
+        {
+          "descriptionType": "list",
+          "description": [
+            "E. Annotation Tools - The following tools are available for creating and managing annotations:",
+            "i. Enable Auto Save – Automatically saves annotation progress while you work.",
+            "ii. Enable Smart Polygon – Activates Smart Polygon and Smart Segment services. Once enabled, the service remains active for approximately 15 minutes of inactivity.",
+            "iii. Smart Polygon Tool – Enables automated polygon creation by simply clicking on an object in the image. To use the Smart Polygon Tool, turn on the “Enable Smart Polygon” toggle and wait for the “Service is Ready to Segment” notification.  The “Enable Smart Polygon” will only work for 15 mins once it is turned on upon inactivity.  Choose the appropriate class from the Classes panel on the left. New classes can be added as required, and class colors can be modified by clicking the color box. Once a class is selected, use the Polygon or Smart Polygon Tool to draw polygons around all relevant objects. Use the zoom controls to ensure precision",
+            "iv. Smart Segment Tool – The Smart Segment Tool automatically detects identifiable features in an image based on the selected class. It enables bulk segmentation without the need to manually click on individual objects. To use the Smart Segment Tool, first turn on the “Enable Smart Polygon” toggle and wait for it to activate. Then click on “Smart Segment Tool,” select the desired class, and click “Run Smart Segment.” The system will automatically detect and mark all objects belonging to that class across the image. Optionally, users may tick “Select Object” to manually indicate a specific object for more targeted segmentation and then click “Run Smart Segment” to detect and mark the remaining objects of that class.",
+            "v. Polygon Tool – Manually draw polygons by placing vertices around the required object.",
+            "vi. Pan Tool – Move around the image without modifying annotations.",
+            "vii. Select Tool – Select annotated polygons for viewing, editing, changing class, or deletion.",
+            "viii. Edit Node Tool – Modify polygon vertices to improve annotation accuracy.",
+            "ix. Undo – Revert the previous annotation action.",
+            "x. Redo – Restore the previously undone annotation.",
+            "Choose the appropriate class from the Classes panel on the left. New classes can be added using the '+' button, existing classes can be renamed or deleted, and class colours can be changed using the colour selector. Use the available annotation tools together with the zoom controls to accurately label all required objects."
+          ]
+        },
+                {
+          "descriptionTitle": "Note:",
+          "descriptionType": "paragraph",
+          "description": [
+            "Enable Auto Save automatically saves annotation progress once enabled. The accuracy of Smart Polygon and Smart Segment depends on the image resolution, object visibility, and quality of the uploaded imagery."
+          ]
+        },
+        {
+          "descriptionType": "list",
+          "description": [
+            "F. Data Classification Panel - All annotated polygons are listed in the Data Classification Panel on the right.",
+            "The panel displays the selected class, polygon count, and annotation details.",
+            "You can:",
+            "-> Search polygons by class.",
+            "-> Select one or multiple polygons.",
+            "-> Reassign selected polygons to another class.",
+            "-> Delete unwanted polygons.",
+            "-> View polygon information directly from the panel."
+          ]
+        },
+        {
+          "descriptionType": "list",
+          "description": [
+            "G. Master Images - Once all required classes in an image have been accurately labelled and verified, the image can be added as a Master Image.",
+            "Master Images are used as reference images for automatically annotating the remaining images, improving annotation consistency and reducing manual effort."
+          ]
+        },
+        {
+          "descriptionTitle": "Note:",
+          "descriptionType": "list",
+          "description": [
+            "i. A minimum of two Master Images must be created before performing “Annotation Assist”.",
+            "ii. Each Master Image should contain annotations for all available classes.",
+            "iii. Master Images may be selected from any page.",
+            "iv. A crown icon identifies images that have been added as Master Images.",
+            "v. Master Images appear in the Master Images panel and display the number of annotated polygons for each class.",
+            "vi. Existing Master Images can be removed and replaced at any time.",
+            "vii. Images selected as Master Images should contain a high number of clearly visible objects from every class.",
+            "viii. Verify all annotations before adding an image as a Master Image to achieve better Auto Annotation results."
+          ]
+        },
+                {
+          "descriptionType": "list",
+          "description": [
+            "H. Auto Annotation - After adding the required Master Images:",
+            "i. Turn on the “Enable Smart Polygon” toggle.",
+            "ii. Wait for the notification indicating that the Smart Annotation service is ready.",
+            "iii. Navigate to the desired page of images.",
+            "iv. Click “Apply to All” to automatically annotate all images on the current page using the selected Master Images.",
+            "v. Once processing is complete, review the generated annotations and make corrections using the Select Tool, Edit Node Tool, Polygon Tool, Smart Polygon, or Smart Segment as required.",
+            "vi. Repeat the same process for all remaining pages until annotation is complete."
+          ]
+        },
+        {
+          "descriptionTitle": "Note:",
+          "descriptionType": "list",
+          "description": [
+            "Repeat the process for all remaining pages.",
+            "The quality of Auto Annotation depends on:",
+            "i. The clarity and spatial resolution of the uploaded images.",
+            "ii. The accuracy of annotations in the Master Images, and",
+            "iii. The quality of the dataset.",
+            "After completing the annotation process, turn off the “Enable Smart Polygon” toggle if it is no longer required. Once all annotations have been reviewed and verified, proceed to the Set Parameters stage for model training."
+          ]
+        }
+      ]
+    }
+  ]
+}
