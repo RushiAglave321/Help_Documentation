@@ -47,7 +47,7 @@ const cards = [
     icon: <ImageIcon className="w-10 h-10 text-purple-600" />,
     title: "Map Dashboard",
     description: "Upload, manage, annotate, and analyze images.",
-    href: "/map_dashboard/componants",
+    href: "/map_dashboard/model_running",
   },
 ];
 
